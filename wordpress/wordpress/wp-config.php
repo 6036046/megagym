@@ -1,80 +1,139 @@
 <?php
 /**
- * De basisconfiguratie voor WordPress.
+ * The base configuration for WordPress
  *
- * Dit bestand bevat de volgende configuraties:
- * * Database-instellingen
- * * Geheime sleutels
- * * Database-tabelprefix
+ * The wp-config.php creation script uses this file during the installation.
+ * You don't have to use the website, you can copy this file to "wp-config.php"
+ * and fill in the values.
+ *
+ * This file contains the following configurations:
+ *
+ * * Database settings
+ * * Secret keys
+ * * Database table prefix
  * * ABSPATH
  *
+ * This has been slightly modified (to read environment variables) for use in Docker.
+ *
  * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/
+ *
  * @package WordPress
  */
 
-// ** Database-instellingen - Deze gegevens krijg je van je webhoster ** //
-/** De naam van de database voor WordPress */
-define( 'DB_NAME', ' st1738846931' );
+// IMPORTANT: this file needs to stay in-sync with https://github.com/WordPress/WordPress/blob/master/wp-config-sample.php
+// (it gets parsed by the upstream wizard in https://github.com/WordPress/WordPress/blob/f27cb65e1ef25d11b535695a660e7282b98eb742/wp-admin/setup-config.php#L356-L392)
 
-/** Database gebruikersnaam */
-define( 'DB_USER', ' st1738846931' );
+// a helper function to lookup "env_FILE", "env", then fallback
+if (!function_exists('getenv_docker')) {
+	// https://github.com/docker-library/wordpress/issues/588 (WP-CLI will load this file 2x)
+	function getenv_docker($env, $default) {
+		if ($fileEnv = getenv($env . '_FILE')) {
+			return rtrim(file_get_contents($fileEnv), "\r\n");
+		}
+		else if (($val = getenv($env)) !== false) {
+			return $val;
+		}
+		else {
+			return $default;
+		}
+	}
+}
 
-/** Database wachtwoord */
-define( 'DB_PASSWORD', 'WkLv7naIMOukQQt' );
+// ** Database settings - You can get this info from your web host ** //
+/** The name of the database for WordPress */
+define( 'DB_NAME', getenv_docker('WORDPRESS_DB_NAME', 'wordpress') );
 
-/** Database hostnaam */
-define( 'DB_HOST', 'localhost' );
+/** Database username */
+define( 'DB_USER', getenv_docker('WORDPRESS_DB_USER', 'example username') );
 
-/** Database karakterset om te gebruiken bij het maken van tabellen. */
-define( 'DB_CHARSET', 'utf8mb4' );
+/** Database password */
+define( 'DB_PASSWORD', getenv_docker('WORDPRESS_DB_PASSWORD', 'example password') );
 
-/** Het database-collatietype. Verander dit niet als je twijfelt. */
-define( 'DB_COLLATE', '' );
+/**
+ * Docker image fallback values above are sourced from the official WordPress installation wizard:
+ * https://github.com/WordPress/WordPress/blob/1356f6537220ffdc32b9dad2a6cdbe2d010b7a88/wp-admin/setup-config.php#L224-L238
+ * (However, using "example username" and "example password" in your database is strongly discouraged.  Please use strong, random credentials!)
+ */
+
+/** Database hostname */
+define( 'DB_HOST', getenv_docker('WORDPRESS_DB_HOST', 'mysql') );
+
+/** Database charset to use in creating database tables. */
+define( 'DB_CHARSET', getenv_docker('WORDPRESS_DB_CHARSET', 'utf8mb4') );
+
+/** The database collate type. Don't change this if in doubt. */
+define( 'DB_COLLATE', getenv_docker('WORDPRESS_DB_COLLATE', '') );
 
 /**#@+
- * Authenticatie unieke sleutels en salts.
+ * Authentication unique keys and salts.
  *
- * Verander deze in unieke zinnen! Je kunt deze genereren via de 
- * WordPress.org secret-key service: https://api.wordpress.org/secret-key/1.1/salt/
+ * Change these to different unique phrases! You can generate these using
+ * the {@link https://api.wordpress.org/secret-key/1.1/salt/ WordPress.org secret-key service}.
+ *
+ * You can change these at any point in time to invalidate all existing cookies.
+ * This will force all users to have to log in again.
+ *
+ * @since 2.6.0
  */
-define( 'AUTH_KEY',         'a146f2763f306f1785a9e6a0a44846ad303d5382' );
-define( 'SECURE_AUTH_KEY',  '1ffb53b4e8bb2a4036375787be37c3e2beddf9de' );
-define( 'LOGGED_IN_KEY',    'e9b81eb3a03d21828469e8c0cd3ce4d79a3f0938' );
-define( 'NONCE_KEY',        'c84034e23d93e585a7b451ef98ad7f4d17c5cc23' );
-define( 'AUTH_SALT',        'e2905d2780358c017d41273d639cb6dd8dd2962d' );
-define( 'SECURE_AUTH_SALT', '56d4209e3815d322047c79e27a7e491ec281c7ca' );
-define( 'LOGGED_IN_SALT',   '2a25334c902fddd10705d907ba7c359cd9cd4186' );
-define( 'NONCE_SALT',       '26c04e2d601f8c26c627f0adb5748306dc5a805b' );
+define( 'AUTH_KEY',         getenv_docker('WORDPRESS_AUTH_KEY',         '0be63dbf95eb207bfb2c5076bf2a6203301458de') );
+define( 'SECURE_AUTH_KEY',  getenv_docker('WORDPRESS_SECURE_AUTH_KEY',  '8658ba108958f98fefe110d25769aa55dcf5c4af') );
+define( 'LOGGED_IN_KEY',    getenv_docker('WORDPRESS_LOGGED_IN_KEY',    '44162ce635e790b2d1b96945b0c6786ec14edd6f') );
+define( 'NONCE_KEY',        getenv_docker('WORDPRESS_NONCE_KEY',        '242510e73df22e201d701992492ba95105b0c05b') );
+define( 'AUTH_SALT',        getenv_docker('WORDPRESS_AUTH_SALT',        '17ff49a24dfce2d48c882f5f0cae562dbe76046e') );
+define( 'SECURE_AUTH_SALT', getenv_docker('WORDPRESS_SECURE_AUTH_SALT', '77908c94b5264c35f04ec6380c3b57accc6dc89b') );
+define( 'LOGGED_IN_SALT',   getenv_docker('WORDPRESS_LOGGED_IN_SALT',   'a11b0fc9c70092908d101dad45cfba7b7ec4f3e0') );
+define( 'NONCE_SALT',       getenv_docker('WORDPRESS_NONCE_SALT',       '870675db7883ce2df1b91edff9016c9c2c46c55d') );
+// (See also https://wordpress.stackexchange.com/a/152905/199287)
+
 /**#@-*/
 
 /**
- * WordPress database tabel prefix.
+ * WordPress database table prefix.
  *
- * Je kunt meerdere installaties in één database hebben als je elke installatie
- * een unieke prefix geeft. Gebruik alleen cijfers, letters en underscores!
+ * You can have multiple installations in one database if you give each
+ * a unique prefix. Only numbers, letters, and underscores please!
+ *
+ * At the installation time, database tables are created with the specified prefix.
+ * Changing this value after WordPress is installed will make your site think
+ * it has not been installed.
+ *
+ * @link https://developer.wordpress.org/advanced-administration/wordpress/wp-config/#table-prefix
  */
-$table_prefix = 'wp_';
+$table_prefix = getenv_docker('WORDPRESS_TABLE_PREFIX', 'wp_');
 
 /**
- * Voor ontwikkelaars: WordPress debug modus.
+ * For developers: WordPress debugging mode.
  *
- * Zet deze op true om notificaties te tonen tijdens het ontwikkelen.
+ * Change this to true to enable the display of notices during development.
+ * It is strongly recommended that plugin and theme developers use WP_DEBUG
+ * in their development environments.
+ *
+ * For information on other constants that can be used for debugging,
+ * visit the documentation.
+ *
+ * @link https://developer.wordpress.org/advanced-administration/debug/debug-wordpress/
  */
-define( 'WP_DEBUG', false );
+define( 'WP_DEBUG', !!getenv_docker('WORDPRESS_DEBUG', '') );
 
-/* Voeg eventuele aangepaste waarden hieronder toe. */
+/* Add any custom values between this line and the "stop editing" line. */
 
-// Detectie voor HTTPS achter een reverse proxy
+// If we're behind a proxy server and using HTTPS, we need to alert WordPress of that fact
+// see also https://wordpress.org/support/article/administration-over-ssl/#using-a-reverse-proxy
 if (isset($_SERVER['HTTP_X_FORWARDED_PROTO']) && strpos($_SERVER['HTTP_X_FORWARDED_PROTO'], 'https') !== false) {
-    $_SERVER['HTTPS'] = 'on';
+	$_SERVER['HTTPS'] = 'on';
+}
+// (we include this by default because reverse proxying is extremely common in container environments)
+
+if ($configExtra = getenv_docker('WORDPRESS_CONFIG_EXTRA', '')) {
+	eval($configExtra);
 }
 
-/* Dat is alles, stop met bewerken! Veel plezier met publiceren. */
+/* That's all, stop editing! Happy publishing. */
 
-/** Absolute pad naar de WordPress-map. */
+/** Absolute path to the WordPress directory. */
 if ( ! defined( 'ABSPATH' ) ) {
-    define( 'ABSPATH', __DIR__ . '/' );
+	define( 'ABSPATH', __DIR__ . '/' );
 }
 
-/** Stelt WordPress variabelen in en includeert bestanden. */
+/** Sets up WordPress vars and included files. */
 require_once ABSPATH . 'wp-settings.php';
