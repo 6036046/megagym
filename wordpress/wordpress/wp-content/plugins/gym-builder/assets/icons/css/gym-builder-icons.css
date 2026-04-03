@@ -1,0 +1,786 @@
+@font-face {
+    font-family: "gym-builder-icons";
+    src: url("../font/gym-builder-icons.woff2") format("woff2"),
+        url("../font/gym-builder-icons.woff") format("woff"),
+        url("../font/gym-builder-icons.eot") format("embedded-opentype"),
+        url("../font/gym-builder-icons.ttf") format("truetype")
+}
+span[class*=" gym-builder-icon-"]:before,
+span[class^="gym-builder-icon-"]:before,
+i[class^="gym-builder-icon-"]:before,
+i[class*=" gym-builder-icon-"]:before {
+    font-family: gym-builder-icons!important;
+    font-style: normal;
+    font-weight: normal !important;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.gym-builder-icon-yoga:before {
+    content: "\f101";
+}
+.gym-builder-icon-yoga-1:before {
+    content: "\f102";
+}
+.gym-builder-icon-lotus:before {
+    content: "\f103";
+}
+.gym-builder-icon-yoga-pose:before {
+    content: "\f104";
+}
+.gym-builder-icon-yoga-pose-1:before {
+    content: "\f105";
+}
+.gym-builder-icon-yoga-pose-2:before {
+    content: "\f106";
+}
+.gym-builder-icon-yoga-2:before {
+    content: "\f107";
+}
+.gym-builder-icon-yoga-mat:before {
+    content: "\f108";
+}
+.gym-builder-icon-yoga-pose-3:before {
+    content: "\f109";
+}
+.gym-builder-icon-yoga-3:before {
+    content: "\f10a";
+}
+.gym-builder-icon-manipura:before {
+    content: "\f10b";
+}
+.gym-builder-icon-lotus-1:before {
+    content: "\f10c";
+}
+.gym-builder-icon-yoga-4:before {
+    content: "\f10d";
+}
+.gym-builder-icon-meditation:before {
+    content: "\f10e";
+}
+.gym-builder-icon-lotus-2:before {
+    content: "\f10f";
+}
+.gym-builder-icon-yoga-pose-4:before {
+    content: "\f110";
+}
+.gym-builder-icon-yoga-pose-5:before {
+    content: "\f111";
+}
+.gym-builder-icon-yoga-pose-6:before {
+    content: "\f112";
+}
+.gym-builder-icon-yoga-5:before {
+    content: "\f113";
+}
+.gym-builder-icon-yoga-pose-7:before {
+    content: "\f114";
+}
+.gym-builder-icon-yoga-pose-8:before {
+    content: "\f115";
+}
+.gym-builder-icon-yoga-pose-9:before {
+    content: "\f116";
+}
+.gym-builder-icon-healthy:before {
+    content: "\f117";
+}
+.gym-builder-icon-lotus-3:before {
+    content: "\f118";
+}
+.gym-builder-icon-yoga-6:before {
+    content: "\f119";
+}
+.gym-builder-icon-workout:before {
+    content: "\f11a";
+}
+.gym-builder-icon-yoga-pose-10:before {
+    content: "\f11b";
+}
+.gym-builder-icon-yoga-pose-11:before {
+    content: "\f11c";
+}
+.gym-builder-icon-yoga-mat-1:before {
+    content: "\f11d";
+}
+.gym-builder-icon-yoga-7:before {
+    content: "\f11e";
+}
+.gym-builder-icon-yoga-pose-12:before {
+    content: "\f11f";
+}
+.gym-builder-icon-yoga-pose-13:before {
+    content: "\f120";
+}
+.gym-builder-icon-yoga-8:before {
+    content: "\f121";
+}
+.gym-builder-icon-lotus-4:before {
+    content: "\f122";
+}
+.gym-builder-icon-pilates:before {
+    content: "\f123";
+}
+.gym-builder-icon-yoga-pose-14:before {
+    content: "\f124";
+}
+.gym-builder-icon-camel:before {
+    content: "\f125";
+}
+.gym-builder-icon-yoga-pose-15:before {
+    content: "\f126";
+}
+.gym-builder-icon-meditation-1:before {
+    content: "\f127";
+}
+.gym-builder-icon-fitness:before {
+    content: "\f128";
+}
+.gym-builder-icon-yoga-pose-16:before {
+    content: "\f129";
+}
+.gym-builder-icon-yoga-ball:before {
+    content: "\f12a";
+}
+.gym-builder-icon-pilates-1:before {
+    content: "\f12b";
+}
+.gym-builder-icon-yoga-pose-17:before {
+    content: "\f12c";
+}
+.gym-builder-icon-yoga-pose-18:before {
+    content: "\f12d";
+}
+.gym-builder-icon-cobra:before {
+    content: "\f12e";
+}
+.gym-builder-icon-yoga-pose-19:before {
+    content: "\f12f";
+}
+.gym-builder-icon-yoga-position:before {
+    content: "\f130";
+}
+.gym-builder-icon-yoga-pose-20:before {
+    content: "\f131";
+}
+.gym-builder-icon-yoga-9:before {
+    content: "\f132";
+}
+.gym-builder-icon-pilates-2:before {
+    content: "\f133";
+}
+.gym-builder-icon-yoga-mat-2:before {
+    content: "\f134";
+}
+.gym-builder-icon-yoga-pose-21:before {
+    content: "\f135";
+}
+.gym-builder-icon-yoga-pose-22:before {
+    content: "\f136";
+}
+.gym-builder-icon-yoga-pose-23:before {
+    content: "\f137";
+}
+.gym-builder-icon-membership:before {
+    content: "\f138";
+}
+.gym-builder-icon-cow:before {
+    content: "\f139";
+}
+.gym-builder-icon-yoga-pose-24:before {
+    content: "\f13a";
+}
+.gym-builder-icon-yoga-pose-25:before {
+    content: "\f13b";
+}
+.gym-builder-icon-yoga-pose-26:before {
+    content: "\f13c";
+}
+.gym-builder-icon-yoga-position-1:before {
+    content: "\f13d";
+}
+.gym-builder-icon-yoga-pose-27:before {
+    content: "\f13e";
+}
+.gym-builder-icon-yoga-10:before {
+    content: "\f13f";
+}
+.gym-builder-icon-yoga-pose-28:before {
+    content: "\f140";
+}
+.gym-builder-icon-crow:before {
+    content: "\f141";
+}
+.gym-builder-icon-yoga-11:before {
+    content: "\f142";
+}
+.gym-builder-icon-pilates-ball:before {
+    content: "\f143";
+}
+.gym-builder-icon-mattress:before {
+    content: "\f144";
+}
+.gym-builder-icon-yoga-pose-29:before {
+    content: "\f145";
+}
+.gym-builder-icon-yoga-position-2:before {
+    content: "\f146";
+}
+.gym-builder-icon-mat:before {
+    content: "\f147";
+}
+.gym-builder-icon-yoga-12:before {
+    content: "\f148";
+}
+.gym-builder-icon-yoga-pose-30:before {
+    content: "\f149";
+}
+.gym-builder-icon-yoga-pose-31:before {
+    content: "\f14a";
+}
+.gym-builder-icon-forward:before {
+    content: "\f14b";
+}
+.gym-builder-icon-yoga-pose-32:before {
+    content: "\f14c";
+}
+.gym-builder-icon-healthy-1:before {
+    content: "\f14d";
+}
+.gym-builder-icon-hero:before {
+    content: "\f14e";
+}
+.gym-builder-icon-meditation-2:before {
+    content: "\f14f";
+}
+.gym-builder-icon-yoga-pose-33:before {
+    content: "\f150";
+}
+.gym-builder-icon-yoga-13:before {
+    content: "\f151";
+}
+.gym-builder-icon-yoga-pose-34:before {
+    content: "\f152";
+}
+.gym-builder-icon-sport-bra:before {
+    content: "\f153";
+}
+.gym-builder-icon-roll:before {
+    content: "\f154";
+}
+.gym-builder-icon-yoga-pose-35:before {
+    content: "\f155";
+}
+.gym-builder-icon-yoga-pose-36:before {
+    content: "\f156";
+}
+.gym-builder-icon-yoga-pose-37:before {
+    content: "\f157";
+}
+.gym-builder-icon-yoga-pose-38:before {
+    content: "\f158";
+}
+.gym-builder-icon-pregnant:before {
+    content: "\f159";
+}
+.gym-builder-icon-yoga-position-3:before {
+    content: "\f15a";
+}
+.gym-builder-icon-yoga-pose-39:before {
+    content: "\f15b";
+}
+.gym-builder-icon-leggings:before {
+    content: "\f15c";
+}
+.gym-builder-icon-yoga-pose-40:before {
+    content: "\f15d";
+}
+.gym-builder-icon-virtual-class:before {
+    content: "\f15e";
+}
+.gym-builder-icon-yoga-pose-41:before {
+    content: "\f15f";
+}
+.gym-builder-icon-yoga-pose-42:before {
+    content: "\f160";
+}
+.gym-builder-icon-sport-clothes:before {
+    content: "\f161";
+}
+.gym-builder-icon-yoga-14:before {
+    content: "\f162";
+}
+.gym-builder-icon-yoga-15:before {
+    content: "\f163";
+}
+.gym-builder-icon-yoga-pose-43:before {
+    content: "\f164";
+}
+.gym-builder-icon-yoga-pose-44:before {
+    content: "\f165";
+}
+.gym-builder-icon-yoga-pose-45:before {
+    content: "\f166";
+}
+.gym-builder-icon-yoga-mat-3:before {
+    content: "\f167";
+}
+.gym-builder-icon-yoga-mat-4:before {
+    content: "\f168";
+}
+.gym-builder-icon-hand-grip:before {
+    content: "\f169";
+}
+.gym-builder-icon-weights:before {
+    content: "\f16a";
+}
+.gym-builder-icon-weight:before {
+    content: "\f16b";
+}
+.gym-builder-icon-muscle:before {
+    content: "\f16c";
+}
+.gym-builder-icon-report:before {
+    content: "\f16d";
+}
+.gym-builder-icon-treadmill:before {
+    content: "\f16e";
+}
+.gym-builder-icon-women:before {
+    content: "\f16f";
+}
+.gym-builder-icon-dumbbell:before {
+    content: "\f170";
+}
+.gym-builder-icon-muscle-1:before {
+    content: "\f171";
+}
+.gym-builder-icon-courses:before {
+    content: "\f172";
+}
+.gym-builder-icon-heart-rate:before {
+    content: "\f173";
+}
+.gym-builder-icon-stationary-bike:before {
+    content: "\f174";
+}
+.gym-builder-icon-running:before {
+    content: "\f175";
+}
+.gym-builder-icon-woman:before {
+    content: "\f176";
+}
+.gym-builder-icon-weightlifter:before {
+    content: "\f177";
+}
+.gym-builder-icon-health:before {
+    content: "\f178";
+}
+.gym-builder-icon-muscle-2:before {
+    content: "\f179";
+}
+.gym-builder-icon-fitness-1:before {
+    content: "\f17a";
+}
+.gym-builder-icon-yoga-16:before {
+    content: "\f17b";
+}
+.gym-builder-icon-gym:before {
+    content: "\f17c";
+}
+.gym-builder-icon-workout-1:before {
+    content: "\f17d";
+}
+.gym-builder-icon-running-shoes:before {
+    content: "\f17e";
+}
+.gym-builder-icon-treadmill-1:before {
+    content: "\f17f";
+}
+.gym-builder-icon-pull-up-bar:before {
+    content: "\f180";
+}
+.gym-builder-icon-nutrition:before {
+    content: "\f181";
+}
+.gym-builder-icon-treadmill-2:before {
+    content: "\f182";
+}
+.gym-builder-icon-health-monitor:before {
+    content: "\f183";
+}
+.gym-builder-icon-trainer:before {
+    content: "\f184";
+}
+.gym-builder-icon-exercise:before {
+    content: "\f185";
+}
+.gym-builder-icon-pilates-3:before {
+    content: "\f186";
+}
+.gym-builder-icon-fitness-2:before {
+    content: "\f187";
+}
+.gym-builder-icon-running-1:before {
+    content: "\f188";
+}
+.gym-builder-icon-lunges:before {
+    content: "\f189";
+}
+.gym-builder-icon-skipping-rope:before {
+    content: "\f18a";
+}
+.gym-builder-icon-drink:before {
+    content: "\f18b";
+}
+.gym-builder-icon-lose-weight:before {
+    content: "\f18c";
+}
+.gym-builder-icon-fitness-3:before {
+    content: "\f18d";
+}
+.gym-builder-icon-waist:before {
+    content: "\f18e";
+}
+.gym-builder-icon-torso:before {
+    content: "\f18f";
+}
+.gym-builder-icon-training:before {
+    content: "\f190";
+}
+.gym-builder-icon-play-ground:before {
+    content: "\f191";
+}
+.gym-builder-icon-stationary-bike-1:before {
+    content: "\f192";
+}
+.gym-builder-icon-gym-equipment:before {
+    content: "\f193";
+}
+.gym-builder-icon-woman-clothes:before {
+    content: "\f194";
+}
+.gym-builder-icon-fitness-4:before {
+    content: "\f195";
+}
+.gym-builder-icon-slim-body:before {
+    content: "\f196";
+}
+.gym-builder-icon-slim-body-1:before {
+    content: "\f197";
+}
+.gym-builder-icon-leggings-1:before {
+    content: "\f198";
+}
+.gym-builder-icon-fitness-5:before {
+    content: "\f199";
+}
+.gym-builder-icon-jump-rope:before {
+    content: "\f19a";
+}
+.gym-builder-icon-program:before {
+    content: "\f19b";
+}
+.gym-builder-icon-muscle-3:before {
+    content: "\f19c";
+}
+.gym-builder-icon-dumbell:before {
+    content: "\f19d";
+}
+.gym-builder-icon-power:before {
+    content: "\f19e";
+}
+.gym-builder-icon-bicycle:before {
+    content: "\f19f";
+}
+.gym-builder-icon-weightlifting:before {
+    content: "\f1a0";
+}
+.gym-builder-icon-kettlebells:before {
+    content: "\f1a1";
+}
+.gym-builder-icon-medicine-ball:before {
+    content: "\f1a2";
+}
+.gym-builder-icon-workout-2:before {
+    content: "\f1a3";
+}
+.gym-builder-icon-back:before {
+    content: "\f1a4";
+}
+.gym-builder-icon-burn:before {
+    content: "\f1a5";
+}
+.gym-builder-icon-kettlebell:before {
+    content: "\f1a6";
+}
+.gym-builder-icon-supplement:before {
+    content: "\f1a7";
+}
+.gym-builder-icon-hand-grip-1:before {
+    content: "\f1a8";
+}
+.gym-builder-icon-treadmill-3:before {
+    content: "\f1a9";
+}
+.gym-builder-icon-medical-clamp:before {
+    content: "\f1aa";
+}
+.gym-builder-icon-silhouette:before {
+    content: "\f1ab";
+}
+.gym-builder-icon-leg:before {
+    content: "\f1ac";
+}
+.gym-builder-icon-gym-ball:before {
+    content: "\f1ad";
+}
+.gym-builder-icon-clothes:before {
+    content: "\f1ae";
+}
+.gym-builder-icon-diet:before {
+    content: "\f1af";
+}
+.gym-builder-icon-nutrition-plan:before {
+    content: "\f1b0";
+}
+.gym-builder-icon-gym-1:before {
+    content: "\f1b1";
+}
+.gym-builder-icon-sport-shirt:before {
+    content: "\f1b2";
+}
+.gym-builder-icon-trainers:before {
+    content: "\f1b3";
+}
+.gym-builder-icon-ring:before {
+    content: "\f1b4";
+}
+.gym-builder-icon-scale:before {
+    content: "\f1b5";
+}
+.gym-builder-icon-protein-shake:before {
+    content: "\f1b6";
+}
+.gym-builder-icon-glove:before {
+    content: "\f1b7";
+}
+.gym-builder-icon-woman-clothes-1:before {
+    content: "\f1b8";
+}
+.gym-builder-icon-slim-body-2:before {
+    content: "\f1b9";
+}
+.gym-builder-icon-nature:before {
+    content: "\f1ba";
+}
+.gym-builder-icon-tape-measure:before {
+    content: "\f1bb";
+}
+.gym-builder-icon-muscle-4:before {
+    content: "\f1bc";
+}
+.gym-builder-icon-supplement-1:before {
+    content: "\f1bd";
+}
+.gym-builder-icon-cardio:before {
+    content: "\f1be";
+}
+.gym-builder-icon-business:before {
+    content: "\f1bf";
+}
+.gym-builder-icon-gym-2:before {
+    content: "\f1c0";
+}
+.gym-builder-icon-gym-3:before {
+    content: "\f1c1";
+}
+.gym-builder-icon-yoga-mat-5:before {
+    content: "\f1c2";
+}
+.gym-builder-icon-gym-4:before {
+    content: "\f1c3";
+}
+.gym-builder-icon-towel:before {
+    content: "\f1c4";
+}
+.gym-builder-icon-machine:before {
+    content: "\f1c5";
+}
+.gym-builder-icon-weightlifter-1:before {
+    content: "\f1c6";
+}
+.gym-builder-icon-water:before {
+    content: "\f1c7";
+}
+.gym-builder-icon-pull-up-bar-1:before {
+    content: "\f1c8";
+}
+.gym-builder-icon-kettlebell-1:before {
+    content: "\f1c9";
+}
+.gym-builder-icon-body-weight:before {
+    content: "\f1ca";
+}
+.gym-builder-icon-pills:before {
+    content: "\f1cb";
+}
+.gym-builder-icon-soccer:before {
+    content: "\f1cc";
+}
+.gym-builder-icon-insignia:before {
+    content: "\f1cd";
+}
+.gym-builder-icon-rugby:before {
+    content: "\f1ce";
+}
+.gym-builder-icon-pants:before {
+    content: "\f1cf";
+}
+.gym-builder-icon-gym-bars:before {
+    content: "\f1d0";
+}
+.gym-builder-icon-gym-machine:before {
+    content: "\f1d1";
+}
+.gym-builder-icon-ball:before {
+    content: "\f1d2";
+}
+.gym-builder-icon-calendar:before {
+    content: "\f1d3";
+}
+.gym-builder-icon-drink-water:before {
+    content: "\f1d4";
+}
+.gym-builder-icon-ball-1:before {
+    content: "\f1d5";
+}
+.gym-builder-icon-heart-health-icon:before {
+    content: "\f1d6";
+}
+.gym-builder-icon-program-1:before {
+    content: "\f1d7";
+}
+.gym-builder-icon-jumping-rope:before {
+    content: "\f1d8";
+}
+.gym-builder-icon-healthy-2:before {
+    content: "\f1d9";
+}
+.gym-builder-icon-kettlebell-2:before {
+    content: "\f1da";
+}
+.gym-builder-icon-tank-top:before {
+    content: "\f1db";
+}
+.gym-builder-icon-fitness-gym:before {
+    content: "\f1dc";
+}
+.gym-builder-icon-slim:before {
+    content: "\f1dd";
+}
+.gym-builder-icon-tik-tok:before {
+    content: "\f1de";
+}
+.gym-builder-icon-instagram:before {
+    content: "\f1df";
+}
+.gym-builder-icon-telegram:before {
+    content: "\f1e0";
+}
+.gym-builder-icon-youtube:before {
+    content: "\f1e1";
+}
+.gym-builder-icon-facebook:before {
+    content: "\f1e2";
+}
+.gym-builder-icon-behance:before {
+    content: "\f1e3";
+}
+.gym-builder-icon-telephone:before {
+    content: "\f1e4";
+}
+.gym-builder-icon-phone:before {
+    content: "\f1e5";
+}
+.gym-builder-icon-phone-ringing:before {
+    content: "\f1e6";
+}
+.gym-builder-icon-calendar-1:before {
+    content: "\f1e7";
+}
+.gym-builder-icon-pinterest:before {
+    content: "\f1e8";
+}
+.gym-builder-icon-skype:before {
+    content: "\f1e9";
+}
+.gym-builder-icon-twitter:before {
+    content: "\f1ea";
+}
+.gym-builder-icon-fire:before {
+    content: "\f1eb";
+}
+.gym-builder-icon-linkedin:before {
+    content: "\f1ec";
+}
+.gym-builder-icon-linkedin-1:before {
+    content: "\f1ed";
+}
+.gym-builder-icon-shopping-cart:before {
+    content: "\f1ee";
+}
+.gym-builder-icon-shopping-bag:before {
+    content: "\f1ef";
+}
+.gym-builder-icon-shopping-cart-1:before {
+    content: "\f1f0";
+}
+.gym-builder-icon-left-arrow:before {
+    content: "\f1f1";
+}
+.gym-builder-icon-left-arrow-1:before {
+    content: "\f1f2";
+}
+.gym-builder-icon-right-arrow:before {
+    content: "\f1f3";
+}
+.gym-builder-icon-next:before {
+    content: "\f1f4";
+}
+.gym-builder-icon-time:before {
+    content: "\f1f5";
+}
+.gym-builder-icon-heart:before {
+    content: "\f1f6";
+}
+.gym-builder-icon-heart-1:before {
+    content: "\f1f7";
+}
+.gym-builder-icon-protein-supplement:before {
+    content: "\f1f8";
+}
+.gym-builder-icon-healthy-3:before {
+    content: "\f1f9";
+}
+.gym-builder-icon-play:before {
+    content: "\f1fa";
+}
+.gym-builder-icon-bath-towel:before {
+    content: "\f1fb";
+}
+.gym-builder-icon-pdf:before {
+    content: "\f1fc";
+}
+.gym-builder-icon-plus:before {
+    content: "\f1fd";
+}
+.gym-builder-icon-minus:before {
+    content: "\f1fe";
+}
+.gym-builder-icon-quote:before {
+    content: "\f1ff";
+}

@@ -1,0 +1,116 @@
+{
+  "type": "gym_builder_trainers",
+  "version": "2.3.0",
+  "exported_at": "2026-03-01T00:00:00",
+  "count": 4,
+  "items": [
+    {
+      "title": "Sarah Johnson",
+      "content": "Sarah is a certified yoga instructor with over 10 years of experience. She specializes in Vinyasa and Hatha yoga, helping students build flexibility, strength, and mindfulness through thoughtful practice.",
+      "excerpt": "Certified yoga instructor specializing in Vinyasa and Hatha yoga.",
+      "status": "publish",
+      "menu_order": 1,
+      "categories": ["Yoga"],
+      "meta": {
+        "gym_builder_trainer_designation": "Yoga Instructor",
+        "gym_builder_trainer_email": "",
+        "gym_builder_trainer_skill": [
+          { "skill_name": "Yoga", "skill_value": "95" },
+          { "skill_name": "Meditation", "skill_value": "90" },
+          { "skill_name": "Flexibility Training", "skill_value": "85" }
+        ],
+        "gym_builder_trainer_socials": {
+          "facebook": "",
+          "twitter": "",
+          "linkedin": "",
+          "skype": "",
+          "youtube": "",
+          "pinterest": "",
+          "instagram": ""
+        }
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Mike Thompson",
+      "content": "Mike is a CrossFit Level 2 trainer and former competitive athlete. He brings high energy and structured programming to every session, focusing on functional fitness and performance improvement.",
+      "excerpt": "CrossFit Level 2 trainer focused on functional fitness.",
+      "status": "publish",
+      "menu_order": 2,
+      "categories": ["CrossFit"],
+      "meta": {
+        "gym_builder_trainer_designation": "CrossFit Coach",
+        "gym_builder_trainer_email": "",
+        "gym_builder_trainer_skill": [
+          { "skill_name": "CrossFit", "skill_value": "95" },
+          { "skill_name": "Strength Training", "skill_value": "90" },
+          { "skill_name": "Olympic Lifting", "skill_value": "80" }
+        ],
+        "gym_builder_trainer_socials": {
+          "facebook": "",
+          "twitter": "",
+          "linkedin": "",
+          "skype": "",
+          "youtube": "",
+          "pinterest": "",
+          "instagram": ""
+        }
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Lisa Chen",
+      "content": "Lisa is a nationally certified Pilates instructor and dance professional. She combines classical Pilates techniques with modern movement science to deliver classes that improve core strength and posture.",
+      "excerpt": "Certified Pilates instructor and dance professional.",
+      "status": "publish",
+      "menu_order": 3,
+      "categories": ["Pilates"],
+      "meta": {
+        "gym_builder_trainer_designation": "Pilates Instructor",
+        "gym_builder_trainer_email": "",
+        "gym_builder_trainer_skill": [
+          { "skill_name": "Pilates", "skill_value": "95" },
+          { "skill_name": "Dance", "skill_value": "85" },
+          { "skill_name": "Core Training", "skill_value": "90" }
+        ],
+        "gym_builder_trainer_socials": {
+          "facebook": "",
+          "twitter": "",
+          "linkedin": "",
+          "skype": "",
+          "youtube": "",
+          "pinterest": "",
+          "instagram": ""
+        }
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "James Rodriguez",
+      "content": "James is a professional boxing coach with 15 years of ring experience. He offers cardio boxing classes for all fitness levels, combining boxing technique with high-intensity interval training.",
+      "excerpt": "Professional boxing coach with 15 years of experience.",
+      "status": "publish",
+      "menu_order": 4,
+      "categories": ["Boxing"],
+      "meta": {
+        "gym_builder_trainer_designation": "Boxing Coach",
+        "gym_builder_trainer_email": "",
+        "gym_builder_trainer_skill": [
+          { "skill_name": "Boxing", "skill_value": "95" },
+          { "skill_name": "HIIT", "skill_value": "85" },
+          { "skill_name": "Cardio Training", "skill_value": "90" }
+        ],
+        "gym_builder_trainer_socials": {
+          "facebook": "",
+          "twitter": "",
+          "linkedin": "",
+          "skype": "",
+          "youtube": "",
+          "pinterest": "",
+          "instagram": ""
+        }
+      },
+      "featured_image": ""
+    }
+  ]
+}

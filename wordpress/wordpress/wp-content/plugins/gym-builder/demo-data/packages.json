@@ -1,0 +1,140 @@
+{
+  "type": "gym_builder_packages",
+  "version": "2.3.0",
+  "exported_at": "2026-03-01T00:00:00",
+  "count": 6,
+  "items": [
+    {
+      "title": "Basic Plan",
+      "content": "",
+      "status": "publish",
+      "menu_order": 1,
+      "categories": ["Morning Yoga Pricing Plan"],
+      "meta": {
+        "gym_builder_package_price": "29",
+        "gym_builder_package_price_duration": "per month",
+        "gym_builder_package_features": [
+          { "feature_icon": "check", "feature_item": "Access to gym floor" },
+          { "feature_icon": "check", "feature_item": "Locker room access" },
+          { "feature_icon": "check", "feature_item": "Free Wi-Fi" },
+          { "feature_icon": "uncheck", "feature_item": "Group classes" },
+          { "feature_icon": "uncheck", "feature_item": "Personal trainer" },
+          { "feature_icon": "uncheck", "feature_item": "Nutrition plan" }
+        ],
+        "gym_builder_package_button_text": "Get Started",
+        "gym_builder_package_button_url": ""
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Standard Plan",
+      "content": "",
+      "status": "publish",
+      "menu_order": 2,
+      "categories": ["Morning Yoga Pricing Plan"],
+      "meta": {
+        "gym_builder_package_price": "59",
+        "gym_builder_package_price_duration": "per month",
+        "gym_builder_package_features": [
+          { "feature_icon": "check", "feature_item": "Access to gym floor" },
+          { "feature_icon": "check", "feature_item": "Locker room access" },
+          { "feature_icon": "check", "feature_item": "Free Wi-Fi" },
+          { "feature_icon": "check", "feature_item": "Group classes" },
+          { "feature_icon": "check", "feature_item": "Personal trainer (2x/month)" },
+          { "feature_icon": "uncheck", "feature_item": "Nutrition plan" }
+        ],
+        "gym_builder_package_button_text": "Choose Plan",
+        "gym_builder_package_button_url": ""
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Premium Plan",
+      "content": "",
+      "status": "publish",
+      "menu_order": 3,
+      "categories": ["Morning Yoga Pricing Plan"],
+      "meta": {
+        "gym_builder_package_price": "99",
+        "gym_builder_package_price_duration": "per month",
+        "gym_builder_package_features": [
+          { "feature_icon": "check", "feature_item": "Access to gym floor" },
+          { "feature_icon": "check", "feature_item": "Locker room access" },
+          { "feature_icon": "check", "feature_item": "Free Wi-Fi" },
+          { "feature_icon": "check", "feature_item": "Unlimited group classes" },
+          { "feature_icon": "check", "feature_item": "Personal trainer (weekly)" },
+          { "feature_icon": "check", "feature_item": "Custom nutrition plan" }
+        ],
+        "gym_builder_package_button_text": "Go Premium",
+        "gym_builder_package_button_url": ""
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Basic Plan",
+      "content": "",
+      "status": "publish",
+      "menu_order": 1,
+      "categories": ["HIIT Blast"],
+      "meta": {
+        "gym_builder_package_price": "89",
+        "gym_builder_package_price_duration": "per month",
+        "gym_builder_package_features": [
+          { "feature_icon": "check", "feature_item": "Access to gym floor" },
+          { "feature_icon": "check", "feature_item": "Locker room access" },
+          { "feature_icon": "check", "feature_item": "Free Wi-Fi" },
+          { "feature_icon": "uncheck", "feature_item": "Group classes" },
+          { "feature_icon": "uncheck", "feature_item": "Personal trainer" },
+          { "feature_icon": "uncheck", "feature_item": "Nutrition plan" }
+        ],
+        "gym_builder_package_button_text": "Get Started",
+        "gym_builder_package_button_url": ""
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Standard Plan",
+      "content": "",
+      "status": "publish",
+      "menu_order": 2,
+      "categories": ["HIIT Blast"],
+      "meta": {
+        "gym_builder_package_price": "99",
+        "gym_builder_package_price_duration": "per month",
+        "gym_builder_package_features": [
+          { "feature_icon": "check", "feature_item": "Access to gym floor" },
+          { "feature_icon": "check", "feature_item": "Locker room access" },
+          { "feature_icon": "check", "feature_item": "Free Wi-Fi" },
+          { "feature_icon": "check", "feature_item": "Group classes" },
+          { "feature_icon": "check", "feature_item": "Personal trainer (2x/month)" },
+          { "feature_icon": "uncheck", "feature_item": "Nutrition plan" }
+        ],
+        "gym_builder_package_button_text": "Choose Plan",
+        "gym_builder_package_button_url": ""
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Premium Plan",
+      "content": "",
+      "status": "publish",
+      "menu_order": 3,
+      "categories": ["HIIT Blast"],
+      "meta": {
+        "gym_builder_package_price": "111",
+        "gym_builder_package_price_duration": "per month",
+        "gym_builder_package_features": [
+          { "feature_icon": "check", "feature_item": "Access to gym floor" },
+          { "feature_icon": "check", "feature_item": "Locker room access" },
+          { "feature_icon": "check", "feature_item": "Free Wi-Fi" },
+          { "feature_icon": "check", "feature_item": "Unlimited group classes" },
+          { "feature_icon": "check", "feature_item": "Personal trainer (weekly)" },
+          { "feature_icon": "check", "feature_item": "Custom nutrition plan" }
+        ],
+        "gym_builder_package_button_text": "Go Premium",
+        "gym_builder_package_button_url": ""
+      },
+      "featured_image": ""
+    }
+  ]
+}

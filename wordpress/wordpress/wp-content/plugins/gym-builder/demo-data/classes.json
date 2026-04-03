@@ -1,0 +1,154 @@
+{
+  "type": "gym_builder_classes",
+  "version": "2.3.0",
+  "exported_at": "2026-03-01T00:00:00",
+  "count": 6,
+  "items": [
+    {
+      "title": "Morning Yoga",
+      "content": "Start your day with an energizing yoga flow designed to awaken your body and mind. This class includes breathing exercises, sun salutations, and gentle stretches suitable for all levels.",
+      "excerpt": "Energizing morning yoga flow for all levels.",
+      "status": "publish",
+      "menu_order": 1,
+      "categories": ["Cardio", "Flexibility"],
+      "meta": {
+        "gym_builder_class_schedule": [
+          { "trainer": "Sarah Johnson", "week": "mon", "start_time": "07:00", "end_time": "08:00", "maximum_member_allow_booking": 20 },
+          { "trainer": "Sarah Johnson", "week": "wed", "start_time": "07:00", "end_time": "08:00", "maximum_member_allow_booking": 20 },
+          { "trainer": "Sarah Johnson", "week": "fri", "start_time": "07:00", "end_time": "08:00", "maximum_member_allow_booking": 20 }
+        ],
+        "gym_builder_class_color": "#8B5CF6",
+        "gym_builder_class_button_text": "Join Class",
+        "gym_builder_class_button_url": "",
+        "gym_builder_class_icon": "",
+        "gym_builder_course_duration_time": "60 min",
+        "gym_builder_pricing_package_name": "Morning Yoga Pricing Plan",
+        "gym_builder_package_prices": [
+          { "name": "Basic Plan", "price": "29" },
+          { "name": "Standard Plan", "price": "59" },
+          { "name": "Premium Plan", "price": "99" }
+        ]
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "CrossFit WOD",
+      "content": "High-intensity CrossFit workout of the day. Each session features a different combination of functional movements performed at high intensity. Build strength, endurance, and mental toughness.",
+      "excerpt": "High-intensity CrossFit workout of the day.",
+      "status": "publish",
+      "menu_order": 2,
+      "categories": ["Strength", "CrossFit"],
+      "meta": {
+        "gym_builder_class_schedule": [
+          { "trainer": "Mike Thompson", "week": "mon", "start_time": "09:00", "end_time": "10:00", "maximum_member_allow_booking": 15 },
+          { "trainer": "Mike Thompson", "week": "tue", "start_time": "09:00", "end_time": "10:00", "maximum_member_allow_booking": 15 },
+          { "trainer": "Mike Thompson", "week": "thu", "start_time": "09:00", "end_time": "10:00", "maximum_member_allow_booking": 15 },
+          { "trainer": "Mike Thompson", "week": "sat", "start_time": "10:00", "end_time": "11:00", "maximum_member_allow_booking": 15 }
+        ],
+        "gym_builder_class_color": "#EF4444",
+        "gym_builder_class_button_text": "Join Class",
+        "gym_builder_class_button_url": "",
+        "gym_builder_class_icon": "",
+        "gym_builder_course_duration_time": "60 min",
+        "gym_builder_pricing_package_name": "",
+        "gym_builder_package_prices": []
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Boxing Fundamentals",
+      "content": "Learn the fundamentals of boxing including proper stance, footwork, and combinations. This class provides an excellent full-body workout while teaching practical boxing skills.",
+      "excerpt": "Full-body boxing workout with technique training.",
+      "status": "publish",
+      "menu_order": 3,
+      "categories": ["Boxing", "Cardio"],
+      "meta": {
+        "gym_builder_class_schedule": [
+          { "trainer": "James Rodriguez", "week": "tue", "start_time": "17:00", "end_time": "18:00", "maximum_member_allow_booking": 12 },
+          { "trainer": "James Rodriguez", "week": "thu", "start_time": "17:00", "end_time": "18:00", "maximum_member_allow_booking": 12 },
+          { "trainer": "James Rodriguez", "week": "sat", "start_time": "09:00", "end_time": "10:00", "maximum_member_allow_booking": 12 }
+        ],
+        "gym_builder_class_color": "#F59E0B",
+        "gym_builder_class_button_text": "Join Class",
+        "gym_builder_class_button_url": "",
+        "gym_builder_class_icon": "",
+        "gym_builder_course_duration_time": "60 min",
+        "gym_builder_pricing_package_name": "",
+        "gym_builder_package_prices": []
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Pilates Core",
+      "content": "Strengthen your core and improve posture with this Pilates mat class. Focus on controlled movements, proper alignment, and deep breathing for a balanced mind-body workout.",
+      "excerpt": "Core-focused Pilates mat class for improved posture.",
+      "status": "publish",
+      "menu_order": 4,
+      "categories": ["Pilates", "Flexibility"],
+      "meta": {
+        "gym_builder_class_schedule": [
+          { "trainer": "Lisa Chen", "week": "mon", "start_time": "11:00", "end_time": "12:00", "maximum_member_allow_booking": 18 },
+          { "trainer": "Lisa Chen", "week": "wed", "start_time": "11:00", "end_time": "12:00", "maximum_member_allow_booking": 18 },
+          { "trainer": "Lisa Chen", "week": "fri", "start_time": "11:00", "end_time": "12:00", "maximum_member_allow_booking": 18 }
+        ],
+        "gym_builder_class_color": "#10B981",
+        "gym_builder_class_button_text": "Join Class",
+        "gym_builder_class_button_url": "",
+        "gym_builder_class_icon": "",
+        "gym_builder_course_duration_time": "60 min",
+        "gym_builder_pricing_package_name": "",
+        "gym_builder_package_prices": []
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "HIIT Blast",
+      "content": "A 45-minute high-intensity interval training class that alternates between bursts of maximum effort and brief recovery. Burn calories, boost metabolism, and improve cardiovascular fitness.",
+      "excerpt": "45-minute high-intensity interval training session.",
+      "status": "publish",
+      "menu_order": 5,
+      "categories": ["Cardio", "HIIT"],
+      "meta": {
+        "gym_builder_class_schedule": [
+          { "trainer": "Mike Thompson", "week": "wed", "start_time": "18:00", "end_time": "18:45", "maximum_member_allow_booking": 20 },
+          { "trainer": "James Rodriguez", "week": "fri", "start_time": "18:00", "end_time": "18:45", "maximum_member_allow_booking": 20 }
+        ],
+        "gym_builder_class_color": "#EC4899",
+        "gym_builder_class_button_text": "Join Class",
+        "gym_builder_class_button_url": "",
+        "gym_builder_class_icon": "",
+        "gym_builder_course_duration_time": "45 min",
+        "gym_builder_pricing_package_name": "HIIT Blast",
+        "gym_builder_package_prices": [
+          { "name": "Basic Plan", "price": "89" },
+          { "name": "Standard Plan", "price": "99" },
+          { "name": "Premium Plan", "price": "111" }
+        ]
+      },
+      "featured_image": ""
+    },
+    {
+      "title": "Spin Cycling",
+      "content": "An indoor cycling class set to motivating music. Ride through simulated terrains with varied resistance and speed intervals. Great for building leg strength and cardiovascular endurance.",
+      "excerpt": "Indoor cycling class with varied intensity intervals.",
+      "status": "publish",
+      "menu_order": 6,
+      "categories": ["Cardio", "Cycling"],
+      "meta": {
+        "gym_builder_class_schedule": [
+          { "trainer": "Lisa Chen", "week": "tue", "start_time": "06:30", "end_time": "07:15", "maximum_member_allow_booking": 25 },
+          { "trainer": "Lisa Chen", "week": "thu", "start_time": "06:30", "end_time": "07:15", "maximum_member_allow_booking": 25 },
+          { "trainer": "Sarah Johnson", "week": "sat", "start_time": "08:00", "end_time": "08:45", "maximum_member_allow_booking": 25 }
+        ],
+        "gym_builder_class_color": "#3B82F6",
+        "gym_builder_class_button_text": "Join Class",
+        "gym_builder_class_button_url": "",
+        "gym_builder_class_icon": "",
+        "gym_builder_course_duration_time": "45 min",
+        "gym_builder_pricing_package_name": "",
+        "gym_builder_package_prices": []
+      },
+      "featured_image": ""
+    }
+  ]
+}

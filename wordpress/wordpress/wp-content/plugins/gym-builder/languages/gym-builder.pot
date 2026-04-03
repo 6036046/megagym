@@ -1,0 +1,4242 @@
+# Copyright (C) 2026 WPDreamers
+# This file is distributed under the GPLv3.
+msgid ""
+msgstr ""
+"Project-Id-Version: Gym Builder 2.3.2\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/gym-builder\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"POT-Creation-Date: 2026-03-31T15:27:11+00:00\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"X-Generator: WP-CLI 2.10.0\n"
+"X-Domain: gym-builder\n"
+
+#. Plugin Name of the plugin
+#: D:\laragon\www\gym-builder\wp-content\plugins\gym-builder\gym-builder.php
+msgid "Gym Builder"
+msgstr ""
+
+#. Plugin URI of the plugin
+#: D:\laragon\www\gym-builder\wp-content\plugins\gym-builder\gym-builder.php
+msgid "https://gymbuilder.wpdreamers.com/"
+msgstr ""
+
+#. Description of the plugin
+#: D:\laragon\www\gym-builder\wp-content\plugins\gym-builder\gym-builder.php
+msgid "The Best Gym Building Plugin for WordPress to Create Gym,Fitness,Body Building,Yoga Website"
+msgstr ""
+
+#. Author of the plugin
+#: D:\laragon\www\gym-builder\wp-content\plugins\gym-builder\gym-builder.php
+msgid "WPDreamers"
+msgstr ""
+
+#. Author URI of the plugin
+#: D:\laragon\www\gym-builder\wp-content\plugins\gym-builder\gym-builder.php
+msgid "https://wpdreamers.com/"
+msgstr ""
+
+#: inc/Base/Enqueue.php:144
+msgid "Please enter your member user id"
+msgstr ""
+
+#: inc/Base/Enqueue.php:145
+msgid "Please select at least one pricing plan."
+msgstr ""
+
+#: inc/Base/Enqueue.php:148
+msgid "Registration successful! Check your email for login details."
+msgstr ""
+
+#: inc/Base/Enqueue.php:150
+msgid "Skill name (e.g. Yoga)"
+msgstr ""
+
+#: inc/Base/Enqueue.php:151
+msgid "Percentage"
+msgstr ""
+
+#: inc/Base/Enqueue.php:152
+msgid "Remove skill"
+msgstr ""
+
+#: inc/Base/Enqueue.php:153
+msgid "Registration successful! Your account is pending approval."
+msgstr ""
+
+#: inc/Base/Enqueue.php:154
+msgid "Please enter a valid name."
+msgstr ""
+
+#: inc/Base/Enqueue.php:155
+msgid "Please enter a valid email address."
+msgstr ""
+
+#: inc/Base/Enqueue.php:156
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:46
+msgid "Password must be at least 8 characters long."
+msgstr ""
+
+#: inc/Base/Install.php:138
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:10
+msgid "Gym Trainer"
+msgstr ""
+
+#: inc/Base/Install.php:147
+#: inc/Controllers/StudentLoginSystem/StudentLoginSystem.php:43
+msgid "Gym Student"
+msgstr ""
+
+#: inc/Base/SettingsLink.php:18
+msgid "Documentation"
+msgstr ""
+
+#: inc/Base/SettingsLink.php:19
+msgid "Settings"
+msgstr ""
+
+#: inc/Base/SettingsLink.php:29
+msgid "Facing issue?"
+msgstr ""
+
+#: inc/Base/SettingsLink.php:30
+msgid "Please open a support ticket."
+msgstr ""
+
+#: inc/Controllers/Admin/AddConfig.php:20
+#: inc/Controllers/Admin/AddPostTypes.php:58
+#: inc/Controllers/Widgets/ClassWidget.php:43
+#: inc/Controllers/Widgets/TrainerWidget.php:42
+#: assets/admin/js/admin-export-import.js:1193
+#: assets/admin/js/admin-export-import.js:1670
+#: assets/admin/js/admin-export-import.js:2348
+#: src/js/admin/components/export-import/DemoTab.jsx:35
+#: src/js/admin/components/export-import/ExportTab.jsx:9
+#: src/js/admin/components/export-import/ImportTab.jsx:71
+#: assets/admin/js/admin-export-import.js:954
+#: assets/admin/js/admin-export-import.js:1242
+#: assets/admin/js/admin-export-import.js:1663
+msgid "Classes"
+msgstr ""
+
+#: inc/Controllers/Admin/AddConfig.php:24
+#: inc/Controllers/Admin/AddPostTypes.php:67
+#: assets/admin/js/admin-export-import.js:1167
+#: assets/admin/js/admin-export-import.js:1707
+#: assets/admin/js/admin-export-import.js:2352
+#: src/js/admin/components/export-import/DemoTab.jsx:21
+#: src/js/admin/components/export-import/ExportTab.jsx:22
+#: src/js/admin/components/export-import/ImportTab.jsx:72
+#: assets/admin/js/admin-export-import.js:940
+#: assets/admin/js/admin-export-import.js:1255
+#: assets/admin/js/admin-export-import.js:1664
+msgid "Trainers"
+msgstr ""
+
+#: inc/Controllers/Admin/AddConfig.php:34
+msgid "Member Login"
+msgstr ""
+
+#: inc/Controllers/Admin/AddConfig.php:38
+msgid "Member Dashboard"
+msgstr ""
+
+#: inc/Controllers/Admin/AddConfig.php:55
+msgid "Page"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:36
+msgid "Course Pricing Info & Details "
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:39
+msgid "Schedule"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:42
+msgid "Course Icon"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:47
+msgid "Choose Icon"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:49
+msgid "All class layouts are not display this icon"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:58
+msgid "Trainer Info"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:62
+msgid "Trainer Skills"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:66
+msgid "Add New Skill"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:69
+msgid "Skill Name"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:71
+msgid "eg. Yoga"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:74
+msgid "Skill Percentage (%)"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:76
+msgid "eg. 75"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:84
+msgid "Membership Package Options"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:87
+#: inc/Controllers/Admin/GbColumnManagement.php:20
+msgid "Package Price"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:91
+msgid "Package Price Duration"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:93
+msgid "Example: per year/per month"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:97
+msgid "Add New Package Feature"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:100
+msgid "Feature Item Icon"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:103
+msgid "Select a Icon Name"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:104
+msgid "Check"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:105
+msgid "Uncheck"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:109
+msgid "Package Feature Item"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:115
+#: inc/Controllers/Admin/AddPostMeta.php:199
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:104
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:86
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:75
+msgid "Button Text"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:117
+msgid "Enter button text eg. Buy Now!"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:120
+#: inc/Controllers/Admin/AddPostMeta.php:204
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:113
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:81
+msgid "Button URL"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:122
+#: inc/Controllers/Admin/AddPostMeta.php:206
+msgid "Enter button url"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:134
+msgid "Select a Course Package Name"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:146
+msgid "Course Per Day Duration"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:148
+msgid "As a example: 60 min / Session"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:151
+msgid "Course Pricing Package Name"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:153
+msgid "This value comes from membership package types"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:158
+msgid "Course Pricing Package List & Price"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:160
+msgid "Those values are  membership package name"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:170
+#: assets/admin/js/admin-settings-page.js:41657
+#: src/js/admin/components/settings-page/StyleSettings.jsx:96
+#: assets/admin/js/admin-settings-page.js:32787
+msgid "Trainer Designation"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:174
+msgid "Trainer Email"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:176
+msgid "The trainer account will be created using this email address. If no email is provided for the trainer, the trainer account will not be created."
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:179
+msgid "Trainer Socials Links"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:181
+msgid "Enter trainer social links here"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:194
+msgid "Color"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:196
+msgid "Used in Routine Style"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:201
+msgid "Enter button text eg. Join Now!"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:210
+msgid "Add New Schedule"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:220
+#: inc/Controllers/Admin/AddPostTypes.php:71
+#: templates/auth/member-registration.php:47
+#: templates/single_gym_builder_class.php:102
+msgid "Trainer"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:226
+msgid "Weekday"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:229
+msgid "Select a Weekday"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:230
+#: inc/Controllers/Helpers/Helper.php:50
+#: inc/Controllers/Helpers/Helper.php:64
+#: inc/Controllers/Models/GymBuilderClass.php:756
+#: assets/admin/js/admin-dashboard.js:40193
+#: assets/admin/js/admin-page.js:63603
+#: assets/admin/js/admin-page.js:63605
+#: assets/admin/js/admin-page.js:65526
+#: src/js/admin/components/AdminDashboard.jsx:87
+#: src/js/admin/components/EditMember.jsx:45
+#: src/js/admin/components/EditMember.jsx:54
+#: src/js/admin/components/fields/ScheduleSelect.jsx:17
+#: assets/admin/js/admin-dashboard.js:31719
+#: assets/admin/js/admin-page.js:51591
+#: assets/admin/js/admin-page.js:51600
+#: assets/admin/js/admin-page.js:53010
+msgid "Monday"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:231
+#: inc/Controllers/Helpers/Helper.php:51
+#: inc/Controllers/Helpers/Helper.php:65
+#: inc/Controllers/Models/GymBuilderClass.php:757
+#: assets/admin/js/admin-dashboard.js:40194
+#: assets/admin/js/admin-page.js:63603
+#: assets/admin/js/admin-page.js:63606
+#: assets/admin/js/admin-page.js:65527
+#: src/js/admin/components/AdminDashboard.jsx:88
+#: src/js/admin/components/EditMember.jsx:46
+#: src/js/admin/components/EditMember.jsx:55
+#: src/js/admin/components/fields/ScheduleSelect.jsx:18
+#: assets/admin/js/admin-dashboard.js:31720
+#: assets/admin/js/admin-page.js:51592
+#: assets/admin/js/admin-page.js:51601
+#: assets/admin/js/admin-page.js:53011
+msgid "Tuesday"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:232
+#: inc/Controllers/Helpers/Helper.php:52
+#: inc/Controllers/Helpers/Helper.php:66
+#: inc/Controllers/Models/GymBuilderClass.php:758
+#: assets/admin/js/admin-dashboard.js:40195
+#: assets/admin/js/admin-page.js:63603
+#: assets/admin/js/admin-page.js:63607
+#: assets/admin/js/admin-page.js:65528
+#: src/js/admin/components/AdminDashboard.jsx:89
+#: src/js/admin/components/EditMember.jsx:47
+#: src/js/admin/components/EditMember.jsx:56
+#: src/js/admin/components/fields/ScheduleSelect.jsx:19
+#: assets/admin/js/admin-dashboard.js:31721
+#: assets/admin/js/admin-page.js:51593
+#: assets/admin/js/admin-page.js:51602
+#: assets/admin/js/admin-page.js:53012
+msgid "Wednesday"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:233
+#: inc/Controllers/Helpers/Helper.php:53
+#: inc/Controllers/Helpers/Helper.php:67
+#: inc/Controllers/Models/GymBuilderClass.php:759
+#: assets/admin/js/admin-dashboard.js:40196
+#: assets/admin/js/admin-page.js:63603
+#: assets/admin/js/admin-page.js:63608
+#: assets/admin/js/admin-page.js:65529
+#: src/js/admin/components/AdminDashboard.jsx:90
+#: src/js/admin/components/EditMember.jsx:48
+#: src/js/admin/components/EditMember.jsx:57
+#: src/js/admin/components/fields/ScheduleSelect.jsx:20
+#: assets/admin/js/admin-dashboard.js:31722
+#: assets/admin/js/admin-page.js:51594
+#: assets/admin/js/admin-page.js:51603
+#: assets/admin/js/admin-page.js:53013
+msgid "Thursday"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:234
+#: inc/Controllers/Helpers/Helper.php:54
+#: inc/Controllers/Helpers/Helper.php:68
+#: inc/Controllers/Models/GymBuilderClass.php:760
+#: assets/admin/js/admin-dashboard.js:40197
+#: assets/admin/js/admin-page.js:63603
+#: assets/admin/js/admin-page.js:63609
+#: assets/admin/js/admin-page.js:65530
+#: src/js/admin/components/AdminDashboard.jsx:91
+#: src/js/admin/components/EditMember.jsx:49
+#: src/js/admin/components/EditMember.jsx:58
+#: src/js/admin/components/fields/ScheduleSelect.jsx:21
+#: assets/admin/js/admin-dashboard.js:31723
+#: assets/admin/js/admin-page.js:51595
+#: assets/admin/js/admin-page.js:51604
+#: assets/admin/js/admin-page.js:53014
+msgid "Friday"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:235
+#: inc/Controllers/Helpers/Helper.php:55
+#: inc/Controllers/Helpers/Helper.php:69
+#: inc/Controllers/Models/GymBuilderClass.php:761
+#: assets/admin/js/admin-dashboard.js:40198
+#: assets/admin/js/admin-page.js:63603
+#: assets/admin/js/admin-page.js:63610
+#: assets/admin/js/admin-page.js:65531
+#: src/js/admin/components/AdminDashboard.jsx:92
+#: src/js/admin/components/EditMember.jsx:50
+#: src/js/admin/components/EditMember.jsx:59
+#: src/js/admin/components/fields/ScheduleSelect.jsx:22
+#: assets/admin/js/admin-dashboard.js:31724
+#: assets/admin/js/admin-page.js:51596
+#: assets/admin/js/admin-page.js:51605
+#: assets/admin/js/admin-page.js:53015
+msgid "Saturday"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:236
+#: inc/Controllers/Helpers/Helper.php:56
+#: inc/Controllers/Helpers/Helper.php:70
+#: inc/Controllers/Models/GymBuilderClass.php:762
+#: assets/admin/js/admin-dashboard.js:40199
+#: assets/admin/js/admin-page.js:63603
+#: assets/admin/js/admin-page.js:63611
+#: assets/admin/js/admin-page.js:65532
+#: src/js/admin/components/AdminDashboard.jsx:93
+#: src/js/admin/components/EditMember.jsx:51
+#: src/js/admin/components/EditMember.jsx:60
+#: src/js/admin/components/fields/ScheduleSelect.jsx:23
+#: assets/admin/js/admin-dashboard.js:31725
+#: assets/admin/js/admin-page.js:51597
+#: assets/admin/js/admin-page.js:51606
+#: assets/admin/js/admin-page.js:53016
+msgid "Sunday"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:240
+msgid "Start Time"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:244
+msgid "End Time"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:248
+msgid "Maximum Member Allowed Booking"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostMeta.php:250
+msgid "Maximum numbers of member can book in this session"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:57
+msgid "Class"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:66
+msgid "Trainer Member"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:78
+msgid "Class Shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:79
+msgid "Classes Shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:83
+#: inc/Controllers/Admin/AddPostTypes.php:111
+msgid "Shortcode Generator"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:84
+#: inc/Controllers/Admin/AddPostTypes.php:85
+#: inc/Controllers/Admin/AddPostTypes.php:112
+#: inc/Controllers/Admin/AddPostTypes.php:113
+#: inc/Controllers/Admin/AddPostTypes.php:141
+#: inc/Controllers/Admin/Shortcode/AdminInit.php:38
+#: inc/Controllers/Admin/Shortcode/AdminInit.php:44
+#: inc/Controllers/Admin/Shortcode/AdminInit.php:49
+msgid "Shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:86
+#: inc/Controllers/Admin/AddPostTypes.php:114
+#: inc/Controllers/Admin/AddPostTypes.php:142
+msgid "Edit Shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:87
+#: inc/Controllers/Admin/AddPostTypes.php:115
+#: inc/Controllers/Admin/AddPostTypes.php:143
+msgid "New Shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:88
+#: inc/Controllers/Admin/AddPostTypes.php:116
+#: inc/Controllers/Admin/AddPostTypes.php:144
+msgid "View Shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:89
+#: inc/Controllers/Admin/AddPostTypes.php:117
+#: inc/Controllers/Admin/AddPostTypes.php:145
+msgid "Shortcode Locations"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:90
+#: inc/Controllers/Admin/AddPostTypes.php:118
+#: inc/Controllers/Admin/AddPostTypes.php:146
+msgid "No Shortcode found."
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:91
+#: inc/Controllers/Admin/AddPostTypes.php:119
+#: inc/Controllers/Admin/AddPostTypes.php:147
+msgid "No Shortcode found in trash."
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:106
+#: inc/Controllers/Admin/AddPostTypes.php:107
+msgid "Trainer Shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:134
+#: inc/Controllers/Admin/AddPostTypes.php:135
+msgid "Fitness Calculator Shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:139
+msgid "Fitness Calculator Generator"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:140
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:70
+msgid "Fitness Calculator"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:162
+#: inc/Controllers/Admin/AddPostTypes.php:163
+#: inc/Controllers/Admin/AddPostTypes.php:167
+#: inc/Controllers/Admin/AddPostTypes.php:168
+#: inc/Controllers/Admin/AddPostTypes.php:169
+msgid "Membership Package"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:170
+msgid "Edit Membership Package"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:171
+msgid "New Membership Package"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:172
+msgid "View Membership Package"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:173
+msgid "Membership Package Locations"
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:174
+msgid "No Membership Package found."
+msgstr ""
+
+#: inc/Controllers/Admin/AddPostTypes.php:175
+msgid "No Membership Package found in trash."
+msgstr ""
+
+#: inc/Controllers/Admin/AddTaxonomies.php:25
+msgid "Trainer Category"
+msgstr ""
+
+#: inc/Controllers/Admin/AddTaxonomies.php:26
+msgid "Trainers Categories"
+msgstr ""
+
+#: inc/Controllers/Admin/AddTaxonomies.php:31
+msgid "Class Category"
+msgstr ""
+
+#: inc/Controllers/Admin/AddTaxonomies.php:32
+msgid "Classes Categories"
+msgstr ""
+
+#: inc/Controllers/Admin/AddTaxonomies.php:37
+#: templates/auth/student-dashboard.php:211
+msgid "Package Type"
+msgstr ""
+
+#: inc/Controllers/Admin/AddTaxonomies.php:38
+msgid "Package Types"
+msgstr ""
+
+#: inc/Controllers/Admin/AddTaxonomies.php:40
+msgid "membership_package_types"
+msgstr ""
+
+#: inc/Controllers/Admin/Api/RestApi.php:363
+msgid "You are not allowed to access this endpoint."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:154
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:176
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:198
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:218
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:234
+msgid "No items found in the uploaded file."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:252
+msgid "Could not determine the data type. Ensure the file was exported from Gym Builder."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:274
+msgid "Invalid or oversized CSV data."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:346
+msgid "Demo data file not found: %s"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:347
+msgid "Demo data file not found."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:360
+msgid "Invalid or empty demo data file."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportApi.php:361
+msgid "Invalid demo data file."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:21
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:22
+#: assets/admin/js/admin-export-import.js:1073
+#: src/js/admin/components/export-import/App.jsx:22
+#: assets/admin/js/admin-export-import.js:895
+msgid "Import / Export"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:65
+msgid "You're All Set!"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:66
+msgid "Permalinks have been flushed successfully. Gym Builder is ready to use."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:84
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:87
+msgid "Flush Permalinks"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:85
+msgid "Your permalink structure is set to \"Post name\". Please flush the permalinks to ensure all Gym Builder pages (trainers, classes, packages) load correctly."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:104
+msgid "Permalink Setup Required"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:105
+msgid "Please set your permalink structure to \"Post name\" otherwise trainer, class, and package pages will not be accessible."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/ExportImportPage.php:107
+msgid "Go to Permalink Settings"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:29
+msgid "Skipped class with empty title."
+msgstr ""
+
+#. translators: 1: class title, 2: error message
+#: inc/Controllers/Admin/ExportImport/Importer.php:51
+msgid "Failed to import class \"%1$s\": %2$s"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:128
+msgid "classes"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:149
+msgid "Skipped trainer with empty title."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:169
+msgid "Failed to import trainer \"%1$s\": %2$s"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:224
+msgid "trainers"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:245
+msgid "Skipped package with empty title."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:268
+msgid "Failed to import package \"%1$s\": %2$s"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:320
+msgid "packages"
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:334
+msgid "Invalid or empty CSV data."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:340
+msgid "CSV file is empty or has no data rows."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:350
+#: assets/admin/js/admin-export-import.js:2513
+#: src/js/admin/components/export-import/ImportTab.jsx:159
+#: assets/admin/js/admin-export-import.js:1751
+msgid "Could not determine the data type from CSV headers. Ensure the file was exported from Gym Builder."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:395
+msgid "No valid data rows found in the CSV file."
+msgstr ""
+
+#. translators: 1: count, 2: item type
+#: inc/Controllers/Admin/ExportImport/Importer.php:707
+msgid "Imported %1$d %2$s."
+msgstr ""
+
+#. translators: 1: count
+#: inc/Controllers/Admin/ExportImport/Importer.php:712
+msgid "Skipped %1$d duplicates."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:716
+msgid "%d errors occurred."
+msgstr ""
+
+#: inc/Controllers/Admin/ExportImport/Importer.php:720
+msgid "No items found to import."
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Metabox/Fields/MetaFields.php:73
+msgid "Add More"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Metabox/Fields/MetaFields.php:146
+#: inc/Controllers/Admin/Models/Metabox/Fields/MetaFields.php:164
+msgid "Click here to select options"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:45
+msgid "Add New"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:46
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:48
+msgid "Add New %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:47
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:45
+msgid "Edit %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:48
+msgid "New %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:49
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:50
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:46
+msgid "View %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:51
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:40
+msgid "Search %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:52
+msgid "%s not found"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:53
+msgid "%s found in Trash"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:55
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:42
+msgid "All %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:56
+msgid "%s Archives"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:57
+msgid "%s Attributes"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:58
+msgid "Insert into %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:59
+msgid "Uploaded to this %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:60
+msgid "Filter %s list"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:61
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:55
+msgid "%s list navigation"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:62
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:56
+msgid "%s list"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:63
+msgid "%s published."
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:64
+msgid "%s published privately."
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:65
+msgid "%s reverted to draft."
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:66
+msgid "%s scheduled."
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterPostType.php:67
+msgid "%s  updated."
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:41
+msgid "Popular %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:43
+msgid "Parent %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:44
+msgid "Parent %s:"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:47
+msgid "Update %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:49
+msgid "New %s Name"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:50
+msgid "Separate %s with commas"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:51
+msgid "Add or remove %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:52
+msgid "Choose from the most used %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:53
+msgid "No %s found."
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:54
+msgid "No %s"
+msgstr ""
+
+#: inc/Controllers/Admin/Models/Posts/RegisterTaxonomy.php:57
+msgid "&larr; Back to %s"
+msgstr ""
+
+#: inc/Controllers/Admin/PluginSurvey.php:27
+msgid "If you have a moment, please share why you are deactivating Gym Builder:"
+msgstr ""
+
+#: inc/Controllers/Admin/Settings/Api/ConfigureSettings.php:144
+#: inc/Controllers/Admin/Settings/Api/ConfigureSettings.php:145
+msgid "Student Migration"
+msgstr ""
+
+#: inc/Controllers/Admin/Settings/Api/ConfigureSettings.php:165
+#: inc/Controllers/Admin/Settings/Api/ConfigureSettings.php:166
+msgid "Trainer Manage"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/AdminInit.php:144
+msgid "All Package Type "
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:26
+#: assets/admin/js/admin-settings-page.js:40371
+#: assets/admin/js/admin-settings-page.js:41024
+#: src/js/admin/components/settings-page/ClassSettings.jsx:73
+#: src/js/admin/components/settings-page/MainHeader.jsx:47
+#: assets/admin/js/admin-settings-page.js:31763
+#: assets/admin/js/admin-settings-page.js:32283
+msgid "Class Settings"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:30
+#: assets/admin/js/admin-settings-page.js:42624
+#: assets/admin/js/admin-settings-page.js:42768
+#: src/js/admin/components/settings-page/class/ImageSettings.jsx:14
+#: src/js/admin/components/settings-page/trainer/ImageSettings.jsx:14
+#: assets/admin/js/admin-settings-page.js:33523
+#: assets/admin/js/admin-settings-page.js:33622
+msgid "Image Settings"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:33
+#: assets/admin/js/admin-settings-page.js:42291
+#: src/js/admin/components/settings-page/class/ClassFilteringSettings.jsx:103
+#: assets/admin/js/admin-settings-page.js:33280
+msgid "Class Filtering"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:62
+#: assets/admin/js/admin-settings-page.js:40376
+#: src/js/admin/components/settings-page/ClassSettings.jsx:75
+#: assets/admin/js/admin-settings-page.js:31765
+msgid "Class Time Format"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:64
+msgid "you can select class time format from here"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:72
+msgid "Class Layout"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:74
+msgid "you can select different class layout from here"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:79
+msgid "Routine Navigation"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:81
+msgid "Show or Hide Class Routine Filtering Navigation List"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:87
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:64
+msgid "Post's Limit"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:89
+msgid "you can select class post item limit and in class schedule layout post's limit will not be working.Default empty is set for showing all posts"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:96
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:70
+msgid "More Button"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:98
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:115
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:72
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:83
+msgid "Show or Hide More Button"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:106
+#: inc/Controllers/Helpers/Helper.php:129
+msgid "More Classes"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:121
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:86
+msgid "Grid Layout"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:123
+msgid "you can select class grid columns and in class schedule layout post's grid columns will not be working"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:145
+#: assets/admin/js/admin-settings-page.js:42629
+#: src/js/admin/components/settings-page/class/ImageSettings.jsx:16
+#: assets/admin/js/admin-settings-page.js:33525
+msgid "Class Thumbnail Width"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:147
+#: assets/admin/js/admin-settings-page.js:42651
+#: src/js/admin/components/settings-page/class/ImageSettings.jsx:38
+#: assets/admin/js/admin-settings-page.js:33547
+msgid "you can set class post thumbnail image width"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:151
+#: assets/admin/js/admin-settings-page.js:42658
+#: src/js/admin/components/settings-page/class/ImageSettings.jsx:43
+#: assets/admin/js/admin-settings-page.js:33552
+msgid "Class Thumbnail Height"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:153
+#: assets/admin/js/admin-settings-page.js:42680
+#: src/js/admin/components/settings-page/class/ImageSettings.jsx:65
+#: assets/admin/js/admin-settings-page.js:33574
+msgid "you can set class post thumbnail image height"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:157
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:119
+msgid "Crop"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:159
+msgid "you can select class image thumbnail crop ( Hard crop means images are forced to crop but soft copy crops images its ratio"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:175
+#: assets/admin/js/admin-settings-page.js:42296
+#: src/js/admin/components/settings-page/class/ClassFilteringSettings.jsx:105
+#: assets/admin/js/admin-settings-page.js:33282
+msgid "Include Class"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:176
+msgid "Select the classes that you want to display on class shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:181
+#: assets/admin/js/admin-settings-page.js:42316
+#: src/js/admin/components/settings-page/class/ClassFilteringSettings.jsx:123
+#: assets/admin/js/admin-settings-page.js:33300
+msgid "Exclude Class"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:182
+msgid "Select the classes that you don't t want to display on class shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:187
+#: assets/admin/js/admin-settings-page.js:42336
+#: src/js/admin/components/settings-page/class/ClassFilteringSettings.jsx:141
+#: assets/admin/js/admin-settings-page.js:33318
+msgid "Class Categories"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:188
+msgid "Select the class categories that you want to display on class shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:193
+msgid "Class OrderBy"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/ClassShortcodeMeta.php:202
+#: assets/admin/js/admin-settings-page.js:42379
+#: src/js/admin/components/settings-page/class/ClassFilteringSettings.jsx:182
+#: assets/admin/js/admin-settings-page.js:33359
+msgid "Class Order"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:23
+msgid "Calculator Settings"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:51
+msgid "Calculator Types"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:53
+msgid "you can select fitness calculator types from here"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:58
+msgid "BMI Layout"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:60
+msgid "you can select bmi calculator layout from here"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:68
+msgid "Calculator Heading"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:73
+msgid "Calculator Description"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:77
+msgid "Default Calculation Unit"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/FitnessCalculatorShortcodeMeta.php:88
+#: inc/Controllers/Helpers/Helper.php:144
+msgid "Calculator"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:25
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:29
+#: assets/admin/js/admin-settings-page.js:41031
+#: assets/admin/js/admin-settings-page.js:41816
+#: src/js/admin/components/settings-page/MainHeader.jsx:53
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:71
+#: assets/admin/js/admin-settings-page.js:32289
+#: assets/admin/js/admin-settings-page.js:32884
+msgid "Trainer Settings"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:32
+#: assets/admin/js/admin-settings-page.js:42996
+#: src/js/admin/components/settings-page/trainer/TrainerFiltering.jsx:100
+#: assets/admin/js/admin-settings-page.js:33807
+msgid "Trainer Filtering"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:57
+msgid "Trainer Layout"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:59
+msgid "you can select different trainer layout from here"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:66
+msgid "you can select trainer post item limit.Default empty is set for showing all posts"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:77
+msgid "More Trainers"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:88
+msgid "you can select trainer grid columns."
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:107
+#: assets/admin/js/admin-settings-page.js:42773
+#: src/js/admin/components/settings-page/trainer/ImageSettings.jsx:16
+#: assets/admin/js/admin-settings-page.js:33624
+msgid "Trainer Thumbnail Width"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:109
+#: assets/admin/js/admin-settings-page.js:42795
+#: src/js/admin/components/settings-page/trainer/ImageSettings.jsx:38
+#: assets/admin/js/admin-settings-page.js:33646
+msgid "you can set trainer post thumbnail image width"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:113
+#: assets/admin/js/admin-settings-page.js:42802
+#: src/js/admin/components/settings-page/trainer/ImageSettings.jsx:43
+#: assets/admin/js/admin-settings-page.js:33651
+msgid "Trainer Thumbnail Height"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:115
+#: assets/admin/js/admin-settings-page.js:42824
+#: src/js/admin/components/settings-page/trainer/ImageSettings.jsx:65
+#: assets/admin/js/admin-settings-page.js:33673
+msgid "you can set trainer post thumbnail image height"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:121
+msgid "you can select trainer image thumbnail crop ( Hard crop means images are forced to crop but soft copy crops images its ratio"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:137
+#: assets/admin/js/admin-settings-page.js:43001
+#: src/js/admin/components/settings-page/trainer/TrainerFiltering.jsx:102
+#: assets/admin/js/admin-settings-page.js:33809
+msgid "Include Trainer"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:138
+msgid "Select the trainers that you want to display on class shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:143
+#: assets/admin/js/admin-settings-page.js:43021
+#: src/js/admin/components/settings-page/trainer/TrainerFiltering.jsx:120
+#: assets/admin/js/admin-settings-page.js:33827
+msgid "Exclude Trainer"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:144
+msgid "Select the trainers that you don't t want to display on class shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:149
+#: assets/admin/js/admin-settings-page.js:43041
+#: src/js/admin/components/settings-page/trainer/TrainerFiltering.jsx:138
+#: assets/admin/js/admin-settings-page.js:33845
+msgid "Trainer Categories"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:150
+msgid "Select the trainer categories that you want to display on class shortcode"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:155
+msgid "Trainer OrderBy"
+msgstr ""
+
+#: inc/Controllers/Admin/Shortcode/Metabox/TrainerShortcodeMeta.php:162
+#: assets/admin/js/admin-settings-page.js:43084
+#: src/js/admin/components/settings-page/trainer/TrainerFiltering.jsx:179
+#: assets/admin/js/admin-settings-page.js:33886
+msgid "Trainer Order"
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:142
+msgid "Member added successfully."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:144
+msgid "Failed to add member."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:170
+msgid "Member deleted successfully."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:172
+msgid "Failed to delete member."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:335
+msgid "Member Info Updated successfully."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:337
+msgid "No changes made."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:340
+msgid "Failed updated member info."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:353
+msgid "Hello "
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:372
+msgid "Mail Sent Successfully."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:374
+msgid "Failed to mail sent."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:394
+msgid "Settings Save Successfully."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:567
+msgid "Booking total slot & total booking count updated successfully."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:569
+msgid "Already total slot and total booking are set 0."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:572
+msgid "Failed to reset booking slot & booking count."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:610
+msgid "Booking slot updated successfully."
+msgstr ""
+
+#: inc/Controllers/AjaxController.php:612
+#: inc/Controllers/AjaxController.php:615
+msgid "Failed updated booking slot."
+msgstr ""
+
+#: inc/Controllers/Frontend/ClassShortcode.php:80
+#: inc/Controllers/Frontend/MembershipPackageShortcode.php:86
+#: inc/Controllers/Frontend/TrainerShortcode.php:76
+#: inc/Controllers/Models/GymBuilderClass.php:164
+msgid "No posts found."
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:141
+msgid "Select a Trainer"
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:220
+#: templates/auth/member-registration.php:116
+msgid "Facebook"
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:225
+#: templates/auth/member-registration.php:121
+msgid "Twitter"
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:230
+msgid "Linkedin"
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:235
+#: templates/auth/member-registration.php:151
+msgid "Skype"
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:240
+msgid "Youtube"
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:245
+#: templates/auth/member-registration.php:146
+msgid "Pinterest"
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:250
+#: templates/auth/member-registration.php:131
+msgid "Instagram"
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:255
+msgid "Tiktok"
+msgstr ""
+
+#: inc/Controllers/Helpers/Functions.php:367
+msgid "%s does not exist."
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:141
+msgid "Fitness Calculators"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:186
+msgid "More Trainer"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:334
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:20
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:20
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:19
+msgid "Centimeter"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:335
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:21
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:21
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:20
+msgid "Kilogram"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:336
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:16
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:16
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:15
+msgid "Feet"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:337
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:17
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:17
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:16
+msgid "Pound"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:338
+msgid "Ltr"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:339
+msgid "Oz"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:340
+msgid "lbs"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:341
+msgid "gram"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:342
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:34
+msgid "Underweight"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:343
+msgid "Normal Weight"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:344
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:36
+msgid "Overweight"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:345
+msgid "(Class I Obese)"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:346
+msgid "(Class II Obese)"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:347
+msgid "(Class III Obese)"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:348
+msgid "Required Fields"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:349
+msgid "Numbers Only"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:350
+msgid "Positive Numbers Only"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:351
+msgid "Non Negative Numbers Only"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:352
+msgid "Integers Only"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:353
+msgid "Positive Integers Only"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:354
+msgid "Non Negative Integres Only"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:420
+#: assets/admin/js/admin-dashboard.js:40864
+#: assets/admin/js/admin-settings-page.js:43483
+#: src/js/admin/utils/data.js:149
+#: assets/admin/js/admin-dashboard.js:32157
+#: assets/admin/js/admin-settings-page.js:34097
+msgid "Left ($99.99)"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:421
+#: assets/admin/js/admin-dashboard.js:40867
+#: assets/admin/js/admin-settings-page.js:43486
+#: src/js/admin/utils/data.js:153
+#: assets/admin/js/admin-dashboard.js:32161
+#: assets/admin/js/admin-settings-page.js:34101
+msgid "Right (99.99$)"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:422
+#: assets/admin/js/admin-dashboard.js:40870
+#: assets/admin/js/admin-settings-page.js:43489
+#: src/js/admin/utils/data.js:157
+#: assets/admin/js/admin-dashboard.js:32165
+#: assets/admin/js/admin-settings-page.js:34105
+msgid "Left with space ($ 99.99)"
+msgstr ""
+
+#: inc/Controllers/Helpers/Helper.php:423
+#: assets/admin/js/admin-dashboard.js:40873
+#: assets/admin/js/admin-settings-page.js:43492
+#: src/js/admin/utils/data.js:161
+#: assets/admin/js/admin-dashboard.js:32169
+#: assets/admin/js/admin-settings-page.js:34109
+msgid "Right with space (99.99 $)"
+msgstr ""
+
+#: inc/Controllers/Models/GymBuilderClass.php:60
+#: inc/Controllers/Models/GymBuilderClass.php:75
+msgid "Mon"
+msgstr ""
+
+#: inc/Controllers/Models/GymBuilderClass.php:61
+#: inc/Controllers/Models/GymBuilderClass.php:76
+msgid "Tue"
+msgstr ""
+
+#: inc/Controllers/Models/GymBuilderClass.php:62
+#: inc/Controllers/Models/GymBuilderClass.php:77
+msgid "Wed"
+msgstr ""
+
+#: inc/Controllers/Models/GymBuilderClass.php:63
+#: inc/Controllers/Models/GymBuilderClass.php:78
+msgid "Thur"
+msgstr ""
+
+#: inc/Controllers/Models/GymBuilderClass.php:64
+#: inc/Controllers/Models/GymBuilderClass.php:79
+msgid "Fri"
+msgstr ""
+
+#: inc/Controllers/Models/GymBuilderClass.php:65
+#: inc/Controllers/Models/GymBuilderClass.php:80
+msgid "Sat"
+msgstr ""
+
+#: inc/Controllers/Models/GymBuilderClass.php:66
+#: inc/Controllers/Models/GymBuilderClass.php:81
+msgid "Sun"
+msgstr ""
+
+#: inc/Controllers/Models/GymBuilderClass.php:313
+#: templates/class/loop/meta.php:55
+msgid "Trainer : "
+msgstr ""
+
+#: inc/Controllers/Models/GymBuilderClass.php:320
+#: templates/class/loop/meta.php:60
+msgid "Schedule : "
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:10
+msgid "Your Gym Student Account Login Credentials"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:12
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:11
+msgid "Hello %s,"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:13
+msgid "Your gym student account has been set up successfully!"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:14
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:13
+msgid "Login Details:"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:15
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:14
+msgid "Username: %s"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:16
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:15
+msgid "Email: %s"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:17
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:16
+msgid "Password: %s"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:18
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:17
+msgid "Login URL: %s"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:19
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:18
+msgid "Please login and change your password for security."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentEmail.php:20
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:19
+msgid "Best regards,"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:94
+msgid "Unauthorized access."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:98
+msgid "Security check failed."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:214
+msgid "Student Management"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:216
+msgid "Migrate existing members to the new WordPress user account system for student login access."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:231
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:178
+msgid "System Upgrade Detected"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:235
+msgid "We've detected %d members that can be migrated to WordPress user accounts. Once migrated, students can log in and view their dashboard."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:244
+msgid "Migration Overview"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:259
+msgid "Students needing migration"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:274
+msgid "Already migrated"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:289
+msgid "No email (cannot migrate)"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:306
+msgid "Total members"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:315
+msgid "Bulk Migration"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:316
+msgid "Click the button below to create WordPress user accounts for all eligible members. Each student will receive an email with their login credentials."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:326
+msgid "Migrate All Students (%d)"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:338
+msgid "Migration in progress... Please do not close this page."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:350
+msgid "Migration Complete"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:352
+msgid "students migrated successfully"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:353
+msgid "skipped (email already in use by another account)"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:354
+msgid "failed"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:368
+msgid "Are you sure you want to migrate all students? This will create WordPress user accounts and send login credentials via email."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:410
+msgid "Migration failed. Please try again."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:417
+msgid "An error occurred. Please try again."
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:436
+msgid "Members Without Email"
+msgstr ""
+
+#: inc/Controllers/StudentLoginSystem/GymStudentMigration.php:440
+msgid "%d members do not have an email address and cannot be migrated. To enable login for these members, please add their email address from the Members page."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:18
+msgid "You are already logged in."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:31
+msgid "Too many registration attempts. Please try again later."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:41
+msgid "Please fill in all required fields."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:51
+msgid "Please provide a valid email address."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:56
+msgid "If this email is not already in use, a trainer account will be created. Please check your email."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:65
+msgid "Failed to create user account. Please try again."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:84
+msgid "Failed to create trainer profile."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:133
+msgid "Registration successful! Your account is pending approval. You will receive an email once approved."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:140
+msgid "You are already logged in as a trainer."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:142
+msgid "You are already logged in as a student."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:144
+msgid "You are already logged in but you are not a trainer or a student."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:158
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:185
+msgid "Too many login attempts. Please try again after 15 minutes."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:166
+msgid "Email/Username and Password are required."
+msgstr ""
+
+#. translators: %d: number of remaining login attempts
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:183
+msgid "Invalid username or password. You have %d attempt(s) remaining."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:193
+msgid "This account is not registered as a trainer. Please select \"Student\" login."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:198
+msgid "This account is not registered as a student. Please select \"Trainer\" login."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerAuth.php:202
+msgid "Invalid login type."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:9
+msgid "Your Gym Trainer Account Login Credentials"
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerEmail.php:12
+msgid "Your gym trainer account has been set up successfully!"
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:168
+msgid "Trainer Management"
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:170
+msgid "Manage trainers, and track their current status from here."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:181
+msgid "We've detected %d trainers that need to be migrated to the new WordPress user account system."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:190
+msgid "Migration Status"
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:200
+msgid "Trainers needing migration"
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:211
+msgid "Trainers are waiting for approval — change status from Draft to Publish."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:222
+msgid "New trainers created by admin with trainer given email(post-migration)"
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:231
+msgid "Upgrade Notice"
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:232
+msgid "If you add the email address for each trainer, a trainer user account will be created automatically. All trainers will receive an email containing their username and password. Using these credentials, trainers can log in to their dashboard."
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:244
+msgid "Trainer Registration Notice"
+msgstr ""
+
+#: inc/Controllers/TrainerLoginSystem/GymTrainerMigration.php:245
+msgid " Registered trainers are awaiting approval. Please change their post status from Draft to Publish to activate their profiles. Once published, their trainer dashboard login credentials will be automatically sent to their email."
+msgstr ""
+
+#: inc/Controllers/Widgets/ClassWidget.php:26
+msgid "Gym Builder: Class"
+msgstr ""
+
+#: inc/Controllers/Widgets/ClassWidget.php:28
+msgid "Gym Builder class widget.It should be used only class sidebar"
+msgstr ""
+
+#: inc/Controllers/Widgets/ClassWidget.php:131
+#: inc/Controllers/Widgets/TrainerWidget.php:126
+msgid "Title"
+msgstr ""
+
+#: inc/Controllers/Widgets/ClassWidget.php:135
+#: inc/Controllers/Widgets/TrainerWidget.php:130
+msgid "Number of posts to show"
+msgstr ""
+
+#: inc/Controllers/Widgets/ClassWidget.php:139
+#: inc/Controllers/Widgets/TrainerWidget.php:134
+msgid "Order By"
+msgstr ""
+
+#: inc/Controllers/Widgets/ClassWidget.php:144
+#: inc/Controllers/Widgets/TrainerWidget.php:139
+msgid "Order"
+msgstr ""
+
+#: inc/Controllers/Widgets/ClassWidget.php:152
+msgid "Number of schedule to show"
+msgstr ""
+
+#: inc/Controllers/Widgets/TrainerWidget.php:26
+msgid "Gym Builder: Trainer"
+msgstr ""
+
+#: inc/Controllers/Widgets/TrainerWidget.php:28
+msgid "Gym Builder trainer widget.It should be used only trainer sidebar"
+msgstr ""
+
+#: inc/Controllers/Widgets/Widgets.php:33
+msgid "Gym Builder - Class Archive Sidebar"
+msgstr ""
+
+#: inc/Controllers/Widgets/Widgets.php:35
+msgid "Add widgets on class archive page"
+msgstr ""
+
+#: inc/Controllers/Widgets/Widgets.php:44
+msgid "Gym Builder - Trainer Archive Sidebar"
+msgstr ""
+
+#: inc/Controllers/Widgets/Widgets.php:46
+msgid "Add widgets on trainer archive page"
+msgstr ""
+
+#: inc/Controllers/Widgets/Widgets.php:55
+msgid "Gym Builder - Class Single Sidebar"
+msgstr ""
+
+#: inc/Controllers/Widgets/Widgets.php:57
+msgid "Add widgets on class single page"
+msgstr ""
+
+#: inc/Controllers/Widgets/Widgets.php:66
+msgid "Gym Builder - Trainer Single Sidebar"
+msgstr ""
+
+#: inc/Controllers/Widgets/Widgets.php:68
+msgid "Add widgets on trainer single page"
+msgstr ""
+
+#. translators: %s: search query
+#: inc/Traits/TemplateTrait.php:15
+msgid "Search results: &ldquo;%s&rdquo;"
+msgstr ""
+
+#. translators: %s: page number
+#: inc/Traits/TemplateTrait.php:19
+msgid "&nbsp;&ndash; Page %s"
+msgstr ""
+
+#: templates/auth/login-error.php:22
+msgid "Access Required"
+msgstr ""
+
+#: templates/auth/login-error.php:24
+msgid "Please log in to access your trainer or student dashboard."
+msgstr ""
+
+#: templates/auth/login-error.php:32
+msgid "Go to Login"
+msgstr ""
+
+#: templates/auth/member-registration.php:27
+#: templates/auth/member-registration.php:72
+msgid "Sign In"
+msgstr ""
+
+#: templates/auth/member-registration.php:31
+msgid "Sign Up"
+msgstr ""
+
+#: templates/auth/member-registration.php:57
+msgid "Student"
+msgstr ""
+
+#: templates/auth/member-registration.php:64
+#: templates/auth/member-registration.php:95
+#: templates/auth/student-dashboard.php:133
+#: templates/auth/trainer-dashboard.php:84
+#: assets/admin/js/admin-page.js:63044
+#: src/js/admin/components/AllMembers.jsx:70
+#: assets/admin/js/admin-page.js:51252
+msgid "Email"
+msgstr ""
+
+#: templates/auth/member-registration.php:68
+#: templates/auth/member-registration.php:99
+msgid "Password"
+msgstr ""
+
+#: templates/auth/member-registration.php:86
+msgid "Trainer registration only. Students cannot register through this form."
+msgstr ""
+
+#: templates/auth/member-registration.php:91
+#: templates/auth/student-dashboard.php:127
+#: templates/auth/trainer-dashboard.php:72
+msgid "Full Name"
+msgstr ""
+
+#: templates/auth/member-registration.php:105
+#: templates/auth/trainer-dashboard.php:78
+msgid "Designation"
+msgstr ""
+
+#: templates/auth/member-registration.php:106
+msgid "e.g. Personal Trainer, Yoga Instructor"
+msgstr ""
+
+#: templates/auth/member-registration.php:111
+#: templates/auth/trainer-dashboard.php:131
+msgid "Social Links"
+msgstr ""
+
+#: templates/auth/member-registration.php:111
+#: templates/auth/member-registration.php:158
+msgid "Optional"
+msgstr ""
+
+#: templates/auth/member-registration.php:126
+msgid "LinkedIn"
+msgstr ""
+
+#: templates/auth/member-registration.php:136
+msgid "YouTube"
+msgstr ""
+
+#: templates/auth/member-registration.php:141
+msgid "TikTok"
+msgstr ""
+
+#: templates/auth/member-registration.php:158
+#: templates/auth/trainer-dashboard.php:97
+#: templates/single_gym_builder_trainer.php:74
+msgid "Skills"
+msgstr ""
+
+#: templates/auth/member-registration.php:159
+msgid "+ Add Skill"
+msgstr ""
+
+#: templates/auth/member-registration.php:164
+msgid "Sign Up as Trainer"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:18
+#: templates/auth/student-dashboard.php:27
+msgid "Student profile not found. Please contact administrator."
+msgstr ""
+
+#: templates/auth/student-dashboard.php:73
+msgid "Student Dashboard"
+msgstr ""
+
+#. translators: %s: trainer name
+#: templates/auth/student-dashboard.php:77
+#: templates/auth/trainer-dashboard-header.php:23
+msgid "Welcome back, %s"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:86
+#: templates/auth/trainer-classes.php:42
+msgid "Active"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:86
+msgid "Inactive"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:95
+#: templates/auth/trainer-dashboard-header.php:40
+msgid "Logout"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:112
+msgid "Profile Information"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:140
+#: assets/admin/js/admin-page.js:63039
+#: src/js/admin/components/AllMembers.jsx:64
+#: assets/admin/js/admin-page.js:51246
+msgid "Phone"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:147
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:90
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:53
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:52
+msgid "Age"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:154
+#: assets/admin/js/admin-page.js:63021
+#: assets/admin/js/admin-page.js:63871
+#: assets/admin/js/admin-page.js:64229
+#: src/js/admin/components/AllMembers.jsx:42
+#: src/js/admin/components/EditMember.jsx:309
+#: src/js/admin/components/MemberAddForm.jsx:245
+#: assets/admin/js/admin-page.js:51224
+#: assets/admin/js/admin-page.js:51855
+#: assets/admin/js/admin-page.js:52177
+msgid "Gender"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:161
+#: assets/admin/js/admin-page.js:63034
+#: src/js/admin/components/AllMembers.jsx:58
+#: assets/admin/js/admin-page.js:51240
+msgid "Address"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:179
+#: assets/admin/js/admin-page.js:63859
+#: assets/admin/js/admin-page.js:64209
+#: src/js/admin/components/EditMember.jsx:295
+#: src/js/admin/components/MemberAddForm.jsx:218
+#: assets/admin/js/admin-page.js:51841
+#: assets/admin/js/admin-page.js:52150
+msgid "Membership Status"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:199
+msgid "Active Membership"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:199
+msgid "Inactive Membership"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:202
+msgid "%d days remaining"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:218
+msgid "Package Name"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:225
+msgid "Joining Date"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:232
+msgid "Duration"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:264
+msgid "%d%% elapsed"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:265
+msgid "%d days left"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:281
+msgid "My Class"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:333
+msgid "Today"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:335
+msgid "Tomorrow"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:340
+msgid "In %d days (%s)"
+msgstr ""
+
+#: templates/auth/student-dashboard.php:347
+msgid "Next class:"
+msgstr ""
+
+#: templates/auth/trainer-classes.php:20
+msgid "Your Classes"
+msgstr ""
+
+#: templates/auth/trainer-classes.php:33
+msgid "No Classes Yet"
+msgstr ""
+
+#: templates/auth/trainer-classes.php:34
+msgid "You are not assigned to any classes yet."
+msgstr ""
+
+#: templates/auth/trainer-dashboard-header.php:18
+msgid "Trainer Dashboard"
+msgstr ""
+
+#: templates/auth/trainer-dashboard-header.php:56
+msgid "Account Pending Approval"
+msgstr ""
+
+#: templates/auth/trainer-dashboard-header.php:57
+msgid "Your trainer account is currently pending admin approval. Once approved, you will be able to access all trainer features and be assigned to classes."
+msgstr ""
+
+#. translators: %s: current day name
+#: templates/auth/trainer-dashboard-header.php:72
+msgid "Today's Schedule - %s"
+msgstr ""
+
+#. translators: %d: number of people
+#: templates/auth/trainer-dashboard-header.php:99
+msgid "%d person"
+msgid_plural "%d people"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/auth/trainer-dashboard-header.php:108
+msgid "Upcoming"
+msgstr ""
+
+#: templates/auth/trainer-dashboard.php:21
+#: templates/auth/trainer-dashboard.php:27
+msgid "Trainer profile not found. Please contact administrator."
+msgstr ""
+
+#: templates/auth/trainer-dashboard.php:31
+msgid "Your trainer profile is not approved yet."
+msgstr ""
+
+#: templates/auth/trainer-dashboard.php:65
+msgid "Your Profile"
+msgstr ""
+
+#: templates/auth/trainer-dashboard.php:90
+msgid "Bio"
+msgstr ""
+
+#: templates/auth/trainer-stats.php:22
+msgid "Total Classes"
+msgstr ""
+
+#: templates/auth/trainer-stats.php:34
+msgid "Today's Classes"
+msgstr ""
+
+#: templates/auth/trainer-stats.php:48
+msgid "Total Skills"
+msgstr ""
+
+#: templates/auth/trainer-stats.php:60
+msgid "Weekly Sessions"
+msgstr ""
+
+#: templates/auth/trainer-weekly-summary.php:22
+msgid "Weekly Schedule Overview"
+msgstr ""
+
+#: templates/auth/trainer-weekly-summary.php:41
+msgid "class"
+msgid_plural "classes"
+msgstr[0] ""
+msgstr[1] ""
+
+#: templates/class/class-price-info.php:16
+msgid "Class Pricing Info & Details"
+msgstr ""
+
+#: templates/class/class-price-info.php:22
+msgid "Package Name:"
+msgstr ""
+
+#: templates/class/class-price-info.php:29
+msgid "Package Per Day Duration:"
+msgstr ""
+
+#: templates/class/class-price-info.php:40
+msgid "Pricing Plan "
+msgstr ""
+
+#: templates/shortcode/class/layouts/layout-2.php:19
+msgid "All"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:25
+msgid "Metric Units"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:26
+msgid "Imperial Units"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:34
+msgid "Below 18.5"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:35
+msgid "18.5 - 24.9"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:35
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:96
+msgid "Normal"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:36
+msgid "25 - 29.9"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:37
+msgid "30 and Above"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:37
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:122
+msgid "Obese"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:53
+msgid "Weight / kg"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:54
+msgid "Height / cm"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:55
+msgid "Weight / lbs"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:56
+msgid "Height / feet"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:57
+msgid "Height / inch"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:60
+msgid "Your BMI is:"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:60
+msgid ", and weight status is:"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:61
+msgid "Error: One or more fields are empty"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:61
+msgid "Error: All field values must be a number"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:66
+msgid "Body Mass Index"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:70
+msgid "BMI"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/bmi/layout-1.php:71
+msgid "Weight Status"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:37
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:37
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:36
+msgid "Metric"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:46
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:46
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:45
+msgid "Imperial"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:55
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:62
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:65
+#: assets/admin/js/admin-page.js:63882
+#: assets/admin/js/admin-page.js:64240
+#: src/js/admin/components/EditMember.jsx:322
+#: src/js/admin/components/MemberAddForm.jsx:258
+#: assets/admin/js/admin-page.js:51868
+#: assets/admin/js/admin-page.js:52190
+msgid "Male"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:62
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:63
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:66
+#: assets/admin/js/admin-page.js:63885
+#: assets/admin/js/admin-page.js:64243
+#: src/js/admin/components/EditMember.jsx:323
+#: src/js/admin/components/MemberAddForm.jsx:259
+#: assets/admin/js/admin-page.js:51869
+#: assets/admin/js/admin-page.js:52191
+msgid "Female"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:70
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:70
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:73
+msgid "Height"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:82
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:82
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:85
+msgid "Weight"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:98
+msgid "Your body fat is "
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:103
+msgid "Body Fat Chart"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:107
+msgid "Description"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:108
+msgid "Women"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:109
+msgid "Men"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:112
+msgid "Recommended"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/body-fat/layout-1.php:117
+msgid "Average"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:55
+msgid "Age should be in 14 to 80 range"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:59
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:62
+msgid "Sex"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:90
+msgid "Goal"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:92
+msgid "Fat loss"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:93
+msgid "Maintenance"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:94
+msgid "Muscle gain"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:99
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:102
+msgid "Activity level"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:102
+msgid "Sedentary"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:103
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:105
+msgid "Lightly Active"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:104
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:106
+msgid "Moderately Active"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:105
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:107
+msgid "Very Active"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:112
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:114
+msgid "You should take "
+msgstr ""
+
+#: templates/shortcode/fitness-calc/protien-intake/layout-1.php:112
+msgid " protein per day"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:93
+msgid "Season"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:95
+msgid "Winter"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:97
+msgid "Summer"
+msgstr ""
+
+#: templates/shortcode/fitness-calc/water-intake/layout-1.php:114
+msgid " water per day"
+msgstr ""
+
+#: templates/single_gym_builder_class.php:95
+msgid "Class Time Table"
+msgstr ""
+
+#: templates/single_gym_builder_class.php:100
+msgid "Day"
+msgstr ""
+
+#: templates/single_gym_builder_class.php:101
+msgid "Time"
+msgstr ""
+
+#: templates/single_gym_builder_trainer.php:69
+msgid "Biography"
+msgstr ""
+
+#: assets/admin/js/admin-dashboard.js:40230
+#: assets/admin/js/admin-dashboard.js:40281
+#: assets/admin/js/admin-page.js:63225
+#: assets/admin/js/admin-page.js:63240
+#: assets/admin/js/admin-page.js:63305
+#: assets/admin/js/admin-page.js:63320
+#: assets/admin/js/admin-page.js:63669
+#: assets/admin/js/admin-page.js:64124
+#: assets/admin/js/admin-page.js:64392
+#: assets/admin/js/admin-page.js:64452
+#: assets/admin/js/admin-page.js:64461
+#: assets/admin/js/admin-settings-page.js:40112
+#: assets/admin/js/admin-settings-page.js:40118
+#: assets/admin/js/admin-settings-page.js:40164
+#: src/js/admin/components/AdminDashboard.jsx:107
+#: src/js/admin/components/AdminDashboard.jsx:133
+#: src/js/admin/components/AdminSettingsPage.jsx:66
+#: src/js/admin/components/AdminSettingsPage.jsx:72
+#: src/js/admin/components/AdminSettingsPage.jsx:107
+#: src/js/admin/components/AllMembers.jsx:188
+#: src/js/admin/components/AllMembers.jsx:197
+#: src/js/admin/components/AllMembers.jsx:235
+#: src/js/admin/components/AllMembers.jsx:244
+#: src/js/admin/components/EditMember.jsx:104
+#: src/js/admin/components/MemberAddForm.jsx:118
+#: src/js/admin/components/MemberDetails.jsx:42
+#: src/js/admin/components/MemberDetails.jsx:109
+#: src/js/admin/components/MemberDetails.jsx:118
+#: assets/admin/js/admin-dashboard.js:31739
+#: assets/admin/js/admin-dashboard.js:31765
+#: assets/admin/js/admin-page.js:51370
+#: assets/admin/js/admin-page.js:51379
+#: assets/admin/js/admin-page.js:51417
+#: assets/admin/js/admin-page.js:51426
+#: assets/admin/js/admin-page.js:51650
+#: assets/admin/js/admin-page.js:52050
+#: assets/admin/js/admin-page.js:52275
+#: assets/admin/js/admin-page.js:52342
+#: assets/admin/js/admin-page.js:52351
+#: assets/admin/js/admin-settings-page.js:31577
+#: assets/admin/js/admin-settings-page.js:31583
+#: assets/admin/js/admin-settings-page.js:31618
+msgid "Error"
+msgstr ""
+
+#: assets/admin/js/admin-dashboard.js:40231
+#: assets/admin/js/admin-dashboard.js:40282
+#: src/js/admin/components/AdminDashboard.jsx:108
+#: src/js/admin/components/AdminDashboard.jsx:134
+#: assets/admin/js/admin-dashboard.js:31740
+#: assets/admin/js/admin-dashboard.js:31766
+msgid "An error occurred while fetching members data."
+msgstr ""
+
+#: assets/admin/js/admin-dashboard.js:40335
+#: assets/admin/js/admin-dashboard.js:40383
+#: assets/admin/js/admin-page.js:63162
+#: assets/admin/js/admin-page.js:64132
+#: src/js/admin/components/AdminDashboard.jsx:180
+#: src/js/admin/components/AdminDashboard.jsx:225
+#: src/js/admin/components/AllMembers.jsx:146
+#: src/js/admin/components/MemberAddForm.jsx:126
+#: assets/admin/js/admin-dashboard.js:31812
+#: assets/admin/js/admin-dashboard.js:31857
+#: assets/admin/js/admin-page.js:51328
+#: assets/admin/js/admin-page.js:52058
+msgid "An error occurred while submitting the form."
+msgstr ""
+
+#: assets/admin/js/admin-dashboard.js:40427
+#: src/js/admin/components/AdminDashboard.jsx:263
+#: assets/admin/js/admin-dashboard.js:31895
+msgid "No class schedule found or if you are a old user of this plugin please update all class post just clicking update button"
+msgstr ""
+
+#: assets/admin/js/admin-dashboard.js:40485
+#: src/js/admin/components/AdminDashboard.jsx:305
+#: assets/admin/js/admin-dashboard.js:31937
+msgid "Are you sure to reset booking count? Reset booking count means total booking slot & total booked will be 0"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1076
+#: src/js/admin/components/export-import/App.jsx:24
+#: assets/admin/js/admin-export-import.js:897
+msgid "Export your gym data or import content from files and demo data."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1144
+#: src/js/admin/components/export-import/DemoTab.jsx:9
+#: assets/admin/js/admin-export-import.js:928
+msgid "Membership Packages"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1145
+#: src/js/admin/components/export-import/DemoTab.jsx:10
+#: assets/admin/js/admin-export-import.js:929
+msgid "Basic, Standard, and Premium plans with features."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1168
+#: src/js/admin/components/export-import/DemoTab.jsx:22
+#: assets/admin/js/admin-export-import.js:941
+msgid "Sample trainers with skills and social profiles."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1194
+#: src/js/admin/components/export-import/DemoTab.jsx:36
+#: assets/admin/js/admin-export-import.js:955
+msgid "Yoga, CrossFit, Boxing, Pilates, HIIT, and Spin classes."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1326
+#: src/js/admin/components/export-import/DemoTab.jsx:90
+#: assets/admin/js/admin-export-import.js:1009
+msgid "Import complete."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1335
+#: assets/admin/js/admin-export-import.js:1408
+#: src/js/admin/components/export-import/DemoTab.jsx:93
+#: src/js/admin/components/export-import/DemoTab.jsx:139
+#: assets/admin/js/admin-export-import.js:1012
+#: assets/admin/js/admin-export-import.js:1058
+msgid "Import failed."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1441
+#: src/js/admin/components/export-import/DemoTab.jsx:149
+#: assets/admin/js/admin-export-import.js:1068
+msgid "Import completed with some errors."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1441
+#: src/js/admin/components/export-import/DemoTab.jsx:150
+#: assets/admin/js/admin-export-import.js:1069
+msgid "All demo data imported successfully!"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1466
+#: assets/admin/js/admin-export-import.js:3166
+#: src/js/admin/components/export-import/DemoTab.jsx:166
+#: src/js/admin/components/export-import/TabNav.jsx:29
+#: assets/admin/js/admin-export-import.js:1085
+#: assets/admin/js/admin-export-import.js:2155
+msgid "Demo Data"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1469
+#: src/js/admin/components/export-import/DemoTab.jsx:168
+#: assets/admin/js/admin-export-import.js:1087
+msgid "Quickly populate your site with sample content. Demo data is added alongside your existing data — nothing is replaced."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1480
+#: assets/admin/js/admin-export-import.js:2047
+#: assets/admin/js/admin-export-import.js:2938
+#: src/js/admin/components/export-import/DemoTab.jsx:176
+#: src/js/admin/components/export-import/ExportTab.jsx:196
+#: src/js/admin/components/export-import/ImportTab.jsx:465
+#: assets/admin/js/admin-export-import.js:1095
+#: assets/admin/js/admin-export-import.js:1429
+#: assets/admin/js/admin-export-import.js:2057
+msgid "Include Images"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1496
+#: assets/admin/js/admin-export-import.js:1518
+#: src/js/admin/components/export-import/DemoTab.jsx:188
+#: src/js/admin/components/export-import/DemoTab.jsx:202
+#: assets/admin/js/admin-export-import.js:1107
+#: assets/admin/js/admin-export-import.js:1121
+msgid "Import All Demo Data"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1499
+#: src/js/admin/components/export-import/DemoTab.jsx:190
+#: assets/admin/js/admin-export-import.js:1109
+msgid "Import packages, trainers, and classes in the correct order. Class schedules will be linked to demo trainers automatically."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1526
+#: assets/admin/js/admin-export-import.js:2870
+#: src/js/admin/components/export-import/DemoTab.jsx:210
+#: src/js/admin/components/export-import/ImportTab.jsx:414
+#: assets/admin/js/admin-export-import.js:1129
+#: assets/admin/js/admin-export-import.js:2006
+msgid "Importing"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1526
+#: assets/admin/js/admin-export-import.js:2104
+#: assets/admin/js/admin-export-import.js:2105
+#: assets/admin/js/admin-export-import.js:2870
+#: src/js/admin/components/export-import/DemoTab.jsx:210
+#: src/js/admin/components/export-import/DemoTab.jsx:211
+#: src/js/admin/components/export-import/ExportTab.jsx:233
+#: src/js/admin/components/export-import/ExportTab.jsx:235
+#: src/js/admin/components/export-import/ImportTab.jsx:414
+#: assets/admin/js/admin-export-import.js:1129
+#: assets/admin/js/admin-export-import.js:1130
+#: assets/admin/js/admin-export-import.js:1466
+#: assets/admin/js/admin-export-import.js:1468
+#: assets/admin/js/admin-export-import.js:2006
+msgid "of"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1526
+#: assets/admin/js/admin-export-import.js:2871
+#: src/js/admin/components/export-import/DemoTab.jsx:211
+#: src/js/admin/components/export-import/ImportTab.jsx:417
+#: assets/admin/js/admin-export-import.js:1130
+#: assets/admin/js/admin-export-import.js:2009
+msgid "Import complete"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1526
+#: assets/admin/js/admin-export-import.js:2105
+#: src/js/admin/components/export-import/DemoTab.jsx:211
+#: src/js/admin/components/export-import/ExportTab.jsx:235
+#: assets/admin/js/admin-export-import.js:1130
+#: assets/admin/js/admin-export-import.js:1468
+msgid "done"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1531
+#: assets/admin/js/admin-export-import.js:2110
+#: src/js/admin/components/export-import/DemoTab.jsx:220
+#: src/js/admin/components/export-import/ExportTab.jsx:244
+#: assets/admin/js/admin-export-import.js:1139
+#: assets/admin/js/admin-export-import.js:1477
+msgid "Dismiss"
+msgstr ""
+
+#. translators: %d: number of items
+#: assets/admin/js/admin-export-import.js:1602
+#: assets/admin/js/admin-export-import.js:2176
+#: assets/admin/js/admin-export-import.js:2853
+#: src/js/admin/components/export-import/DemoTab.jsx:285
+#: src/js/admin/components/export-import/ExportTab.jsx:305
+#: src/js/admin/components/export-import/ImportTab.jsx:395
+#: assets/admin/js/admin-export-import.js:1204
+#: assets/admin/js/admin-export-import.js:1538
+#: assets/admin/js/admin-export-import.js:1987
+msgid "items"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1602
+#: src/js/admin/components/export-import/DemoTab.jsx:287
+#: assets/admin/js/admin-export-import.js:1206
+msgid "Not available"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1617
+#: src/js/admin/components/export-import/DemoTab.jsx:301
+#: assets/admin/js/admin-export-import.js:1220
+msgid "Importing..."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1618
+#: assets/admin/js/admin-export-import.js:2966
+#: assets/admin/js/admin-export-import.js:3143
+#: src/js/admin/components/export-import/DemoTab.jsx:304
+#: src/js/admin/components/export-import/ImportTab.jsx:480
+#: src/js/admin/components/export-import/TabNav.jsx:18
+#: assets/admin/js/admin-export-import.js:1223
+#: assets/admin/js/admin-export-import.js:2072
+#: assets/admin/js/admin-export-import.js:2144
+msgid "Import"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1732
+#: assets/admin/js/admin-export-import.js:2356
+#: src/js/admin/components/export-import/ExportTab.jsx:35
+#: src/js/admin/components/export-import/ImportTab.jsx:73
+#: assets/admin/js/admin-export-import.js:1268
+#: assets/admin/js/admin-export-import.js:1665
+msgid "Packages"
+msgstr ""
+
+#. translators: %s: data type label (e.g. "Classes")
+#: assets/admin/js/admin-export-import.js:1871
+#: src/js/admin/components/export-import/ExportTab.jsx:98
+#: assets/admin/js/admin-export-import.js:1331
+msgid "exported successfully!"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1880
+#: assets/admin/js/admin-export-import.js:1969
+#: src/js/admin/components/export-import/ExportTab.jsx:101
+#: src/js/admin/components/export-import/ExportTab.jsx:159
+#: assets/admin/js/admin-export-import.js:1334
+#: assets/admin/js/admin-export-import.js:1392
+msgid "Export failed."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:1929
+#: src/js/admin/components/export-import/ExportTab.jsx:123
+#: assets/admin/js/admin-export-import.js:1356
+msgid "Skipped — no items."
+msgstr ""
+
+#. translators: %1$s: type label, %2$s: format (JSON/CSV)
+#: assets/admin/js/admin-export-import.js:1957
+#: src/js/admin/components/export-import/ExportTab.jsx:150
+#: assets/admin/js/admin-export-import.js:1383
+msgid "exported as"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2008
+#: src/js/admin/components/export-import/ExportTab.jsx:169
+#: assets/admin/js/admin-export-import.js:1402
+msgid "Export completed with some errors."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2008
+#: src/js/admin/components/export-import/ExportTab.jsx:170
+#: assets/admin/js/admin-export-import.js:1403
+msgid "All data exported successfully!"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2033
+#: src/js/admin/components/export-import/ExportTab.jsx:186
+#: assets/admin/js/admin-export-import.js:1419
+msgid "Export Data"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2036
+#: src/js/admin/components/export-import/ExportTab.jsx:188
+#: assets/admin/js/admin-export-import.js:1421
+msgid "Download your classes, trainers, and membership packages as JSON or CSV files."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2066
+#: assets/admin/js/admin-export-import.js:2095
+#: src/js/admin/components/export-import/ExportTab.jsx:208
+#: src/js/admin/components/export-import/ExportTab.jsx:224
+#: assets/admin/js/admin-export-import.js:1441
+#: assets/admin/js/admin-export-import.js:1457
+msgid "Export All Data"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2069
+#: src/js/admin/components/export-import/ExportTab.jsx:210
+#: assets/admin/js/admin-export-import.js:1443
+msgid "Export classes, trainers, and packages in one go. Each type uses the format selected on its card below."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2104
+#: src/js/admin/components/export-import/ExportTab.jsx:233
+#: assets/admin/js/admin-export-import.js:1466
+msgid "Exporting"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2105
+#: src/js/admin/components/export-import/ExportTab.jsx:235
+#: assets/admin/js/admin-export-import.js:1468
+msgid "Export complete"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2215
+#: src/js/admin/components/export-import/ExportTab.jsx:339
+#: assets/admin/js/admin-export-import.js:1572
+msgid "Exporting..."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2236
+#: assets/admin/js/admin-export-import.js:3120
+#: src/js/admin/components/export-import/ExportTab.jsx:348
+#: src/js/admin/components/export-import/TabNav.jsx:7
+#: assets/admin/js/admin-export-import.js:1581
+#: assets/admin/js/admin-export-import.js:2133
+msgid "Export"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2473
+#: src/js/admin/components/export-import/ImportTab.jsx:119
+#: assets/admin/js/admin-export-import.js:1711
+msgid "Only JSON and CSV files are supported for import."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2480
+#: src/js/admin/components/export-import/ImportTab.jsx:124
+#: assets/admin/js/admin-export-import.js:1716
+msgid "File size exceeds the 10 MB limit."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2505
+#: src/js/admin/components/export-import/ImportTab.jsx:151
+#: assets/admin/js/admin-export-import.js:1743
+msgid "CSV file appears to be empty."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2531
+#: src/js/admin/components/export-import/ImportTab.jsx:176
+#: assets/admin/js/admin-export-import.js:1768
+msgid "Invalid file format. Expected a Gym Builder export file."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2538
+#: src/js/admin/components/export-import/ImportTab.jsx:180
+#: assets/admin/js/admin-export-import.js:1772
+msgid "Unknown data type."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2546
+#: src/js/admin/components/export-import/ImportTab.jsx:185
+#: assets/admin/js/admin-export-import.js:1777
+msgid "Failed to parse JSON file."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2556
+#: src/js/admin/components/export-import/ImportTab.jsx:193
+#: assets/admin/js/admin-export-import.js:1785
+msgid "Failed to read the file."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2604
+#: src/js/admin/components/export-import/ImportTab.jsx:235
+#: assets/admin/js/admin-export-import.js:1827
+msgid "No items found in the file."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2653
+#: src/js/admin/components/export-import/ImportTab.jsx:275
+#: assets/admin/js/admin-export-import.js:1867
+msgid "Batch import failed."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2670
+#: assets/admin/js/admin-export-import.js:2888
+#: src/js/admin/components/export-import/ImportTab.jsx:291
+#: src/js/admin/components/export-import/ImportTab.jsx:430
+#: assets/admin/js/admin-export-import.js:1883
+#: assets/admin/js/admin-export-import.js:2022
+msgid "Imported"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2670
+#: src/js/admin/components/export-import/ImportTab.jsx:291
+#: assets/admin/js/admin-export-import.js:1883
+msgid "items."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2673
+#: assets/admin/js/admin-export-import.js:2891
+#: src/js/admin/components/export-import/ImportTab.jsx:294
+#: src/js/admin/components/export-import/ImportTab.jsx:434
+#: assets/admin/js/admin-export-import.js:1886
+#: assets/admin/js/admin-export-import.js:2026
+msgid "Skipped"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2673
+#: src/js/admin/components/export-import/ImportTab.jsx:294
+#: assets/admin/js/admin-export-import.js:1886
+msgid "duplicates."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2676
+#: src/js/admin/components/export-import/ImportTab.jsx:297
+#: assets/admin/js/admin-export-import.js:1889
+msgid "errors occurred."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2680
+#: src/js/admin/components/export-import/ImportTab.jsx:302
+#: assets/admin/js/admin-export-import.js:1894
+msgid "No items to import."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2709
+#: src/js/admin/components/export-import/ImportTab.jsx:326
+#: assets/admin/js/admin-export-import.js:1918
+msgid "Import Data"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2712
+#: src/js/admin/components/export-import/ImportTab.jsx:328
+#: assets/admin/js/admin-export-import.js:1920
+msgid "Upload a previously exported JSON or CSV file. Data will be added alongside your existing content — nothing is replaced."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2748
+#: src/js/admin/components/export-import/ImportTab.jsx:345
+#: assets/admin/js/admin-export-import.js:1937
+msgid "Reading file..."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2809
+#: src/js/admin/components/export-import/ImportTab.jsx:377
+#: assets/admin/js/admin-export-import.js:1969
+msgid "Drop your file here"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2810
+#: src/js/admin/components/export-import/ImportTab.jsx:377
+#: assets/admin/js/admin-export-import.js:1969
+msgid "or click to browse"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2813
+#: src/js/admin/components/export-import/ImportTab.jsx:379
+#: assets/admin/js/admin-export-import.js:1971
+msgid "Supports .json and .csv files exported from Gym Builder"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2853
+#: src/js/admin/components/export-import/ImportTab.jsx:397
+#: assets/admin/js/admin-export-import.js:1989
+msgid "Exported"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2859
+#: src/js/admin/components/export-import/ImportTab.jsx:402
+#: assets/admin/js/admin-export-import.js:1994
+msgid "Change File"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2870
+#: src/js/admin/components/export-import/ImportTab.jsx:414
+#: assets/admin/js/admin-export-import.js:2006
+msgid "items..."
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2894
+#: src/js/admin/components/export-import/ImportTab.jsx:439
+#: assets/admin/js/admin-export-import.js:2031
+msgid "Errors"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2921
+#: src/js/admin/components/export-import/ImportTab.jsx:452
+#: assets/admin/js/admin-export-import.js:2044
+msgid "Import Another File"
+msgstr ""
+
+#: assets/admin/js/admin-export-import.js:2994
+#: src/js/admin/components/export-import/ImportTab.jsx:490
+#: assets/admin/js/admin-export-import.js:2082
+msgid "Existing data will not be affected. Duplicate items (same title) will be skipped."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63011
+#: src/js/admin/components/AllMembers.jsx:30
+#: assets/admin/js/admin-page.js:51212
+msgid "User ID"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63016
+#: src/js/admin/components/AllMembers.jsx:36
+#: assets/admin/js/admin-page.js:51218
+msgid "Name"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63049
+#: src/js/admin/components/AllMembers.jsx:76
+#: assets/admin/js/admin-page.js:51258
+msgid "Status"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63065
+#: src/js/admin/components/AllMembers.jsx:83
+#: assets/admin/js/admin-page.js:51265
+msgid "Image"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63080
+#: src/js/admin/components/AllMembers.jsx:90
+#: assets/admin/js/admin-page.js:51272
+msgid "Actions"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63087
+#: src/js/admin/components/AllMembers.jsx:94
+#: assets/admin/js/admin-page.js:51276
+msgid "View Member"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63096
+#: assets/admin/js/admin-page.js:63098
+#: src/js/admin/components/AllMembers.jsx:97
+#: src/js/admin/components/AllMembers.jsx:98
+#: assets/admin/js/admin-page.js:51279
+#: assets/admin/js/admin-page.js:51280
+msgid "Edit Member"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63106
+#: src/js/admin/components/AllMembers.jsx:101
+#: assets/admin/js/admin-page.js:51283
+msgid "Are you sure to delete this member?"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63113
+#: assets/admin/js/admin-page.js:63115
+#: src/js/admin/components/AllMembers.jsx:106
+#: src/js/admin/components/AllMembers.jsx:107
+#: assets/admin/js/admin-page.js:51288
+#: assets/admin/js/admin-page.js:51289
+msgid "Delete Member"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63211
+#: assets/admin/js/admin-page.js:63291
+#: src/js/admin/components/AllMembers.jsx:180
+#: src/js/admin/components/AllMembers.jsx:227
+#: assets/admin/js/admin-page.js:51362
+#: assets/admin/js/admin-page.js:51409
+msgid "Not Found"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63212
+#: assets/admin/js/admin-page.js:63292
+#: src/js/admin/components/AllMembers.jsx:181
+#: src/js/admin/components/AllMembers.jsx:228
+#: assets/admin/js/admin-page.js:51363
+#: assets/admin/js/admin-page.js:51410
+msgid "No members found."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63226
+#: assets/admin/js/admin-page.js:63306
+#: assets/admin/js/admin-settings-page.js:40113
+#: src/js/admin/components/AdminSettingsPage.jsx:67
+#: src/js/admin/components/AllMembers.jsx:189
+#: src/js/admin/components/AllMembers.jsx:236
+#: assets/admin/js/admin-page.js:51371
+#: assets/admin/js/admin-page.js:51418
+#: assets/admin/js/admin-settings-page.js:31578
+msgid "Resource not found (404)."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63232
+#: assets/admin/js/admin-page.js:63312
+#: src/js/admin/components/AllMembers.jsx:193
+#: src/js/admin/components/AllMembers.jsx:240
+#: assets/admin/js/admin-page.js:51375
+#: assets/admin/js/admin-page.js:51422
+msgid "Network response was not ok."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63241
+#: assets/admin/js/admin-page.js:63321
+#: src/js/admin/components/AllMembers.jsx:198
+#: src/js/admin/components/AllMembers.jsx:245
+#: assets/admin/js/admin-page.js:51380
+#: assets/admin/js/admin-page.js:51427
+msgid "An error occurred while fetching member data."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63374
+#: src/js/admin/components/AllMembers.jsx:296
+#: assets/admin/js/admin-page.js:51478
+msgid "Type 4 character member name or email for member search"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63375
+#: src/js/admin/components/AllMembers.jsx:297
+#: assets/admin/js/admin-page.js:51479
+msgid "Reset Search"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63385
+#: assets/admin/js/admin-page.js:63391
+#: src/js/admin/components/AllMembers.jsx:308
+#: src/js/admin/components/AllMembers.jsx:316
+#: assets/admin/js/admin-page.js:51490
+#: assets/admin/js/admin-page.js:51498
+msgid "Member Order"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63396
+#: src/js/admin/components/AllMembers.jsx:320
+#: assets/admin/js/admin-page.js:51502
+msgid "Ascending"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63399
+#: src/js/admin/components/AllMembers.jsx:321
+#: assets/admin/js/admin-page.js:51503
+msgid "Descending"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63661
+#: assets/admin/js/admin-page.js:64384
+#: src/js/admin/components/EditMember.jsx:100
+#: src/js/admin/components/MemberDetails.jsx:38
+#: assets/admin/js/admin-page.js:51646
+#: assets/admin/js/admin-page.js:52271
+msgid "Failed to fetch member details."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63670
+#: assets/admin/js/admin-page.js:64393
+#: src/js/admin/components/EditMember.jsx:105
+#: src/js/admin/components/MemberDetails.jsx:43
+#: assets/admin/js/admin-page.js:51651
+#: assets/admin/js/admin-page.js:52276
+msgid "An error occurred while fetching member details."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63827
+#: assets/admin/js/admin-page.js:64177
+#: src/js/admin/components/EditMember.jsx:250
+#: src/js/admin/components/MemberAddForm.jsx:172
+#: assets/admin/js/admin-page.js:51796
+#: assets/admin/js/admin-page.js:52104
+msgid "Member Address"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63831
+#: assets/admin/js/admin-page.js:64181
+#: src/js/admin/components/EditMember.jsx:255
+#: src/js/admin/components/MemberAddForm.jsx:177
+#: assets/admin/js/admin-page.js:51801
+#: assets/admin/js/admin-page.js:52109
+msgid "Please input a member address"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63836
+#: assets/admin/js/admin-page.js:64186
+#: src/js/admin/components/EditMember.jsx:263
+#: src/js/admin/components/MemberAddForm.jsx:185
+#: assets/admin/js/admin-page.js:51809
+#: assets/admin/js/admin-page.js:52117
+msgid "Member Email"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63837
+#: assets/admin/js/admin-page.js:64187
+#: src/js/admin/components/EditMember.jsx:264
+#: src/js/admin/components/MemberAddForm.jsx:186
+#: assets/admin/js/admin-page.js:51810
+#: assets/admin/js/admin-page.js:52118
+msgid "Member user automatically created with this email ( user get his login credentials with a mail )"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63841
+#: assets/admin/js/admin-page.js:64191
+#: src/js/admin/components/EditMember.jsx:269
+#: src/js/admin/components/MemberAddForm.jsx:191
+#: assets/admin/js/admin-page.js:51815
+#: assets/admin/js/admin-page.js:52123
+msgid "Please input member email!"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63847
+#: assets/admin/js/admin-page.js:64197
+#: src/js/admin/components/EditMember.jsx:278
+#: src/js/admin/components/MemberAddForm.jsx:201
+#: assets/admin/js/admin-page.js:51824
+#: assets/admin/js/admin-page.js:52133
+msgid "Member Phone Number"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63850
+#: assets/admin/js/admin-page.js:64200
+#: src/js/admin/components/EditMember.jsx:282
+#: src/js/admin/components/MemberAddForm.jsx:205
+#: assets/admin/js/admin-page.js:51828
+#: assets/admin/js/admin-page.js:52137
+msgid "Please input member phone number!"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63854
+#: assets/admin/js/admin-page.js:64204
+#: src/js/admin/components/EditMember.jsx:289
+#: src/js/admin/components/MemberAddForm.jsx:212
+#: assets/admin/js/admin-page.js:51835
+#: assets/admin/js/admin-page.js:52144
+msgid "Member Age"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63861
+#: assets/admin/js/admin-page.js:64211
+#: src/js/admin/components/EditMember.jsx:297
+#: src/js/admin/components/MemberAddForm.jsx:220
+#: assets/admin/js/admin-page.js:51843
+#: assets/admin/js/admin-page.js:52152
+msgid "Enable checkbox for membership active"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63875
+#: assets/admin/js/admin-page.js:64233
+#: src/js/admin/components/EditMember.jsx:314
+#: src/js/admin/components/MemberAddForm.jsx:250
+#: assets/admin/js/admin-page.js:51860
+#: assets/admin/js/admin-page.js:52182
+msgid "Please select gender name!"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63879
+#: assets/admin/js/admin-page.js:64237
+#: src/js/admin/components/EditMember.jsx:320
+#: src/js/admin/components/MemberAddForm.jsx:256
+#: assets/admin/js/admin-page.js:51866
+#: assets/admin/js/admin-page.js:52188
+msgid "Select Gender"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63889
+#: assets/admin/js/admin-page.js:64225
+#: src/js/admin/components/EditMember.jsx:327
+#: src/js/admin/components/MemberAddForm.jsx:238
+#: assets/admin/js/admin-page.js:51873
+#: assets/admin/js/admin-page.js:52170
+msgid "Membership Duration"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63893
+#: src/js/admin/components/EditMember.jsx:332
+#: assets/admin/js/admin-page.js:51878
+msgid "Please input membership duration date"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:63917
+#: src/js/admin/components/EditMember.jsx:361
+#: assets/admin/js/admin-page.js:51907
+msgid "Previous Uploaded Image:"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64117
+#: assets/admin/js/admin-page.js:64446
+#: assets/admin/js/admin-settings-page.js:40158
+#: src/js/admin/components/AdminSettingsPage.jsx:101
+#: src/js/admin/components/MemberAddForm.jsx:111
+#: src/js/admin/components/MemberDetails.jsx:103
+#: assets/admin/js/admin-page.js:52043
+#: assets/admin/js/admin-page.js:52336
+#: assets/admin/js/admin-settings-page.js:31612
+msgid "Success"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64167
+#: src/js/admin/components/MemberAddForm.jsx:158
+#: assets/admin/js/admin-page.js:52090
+msgid "Member Name"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64171
+#: src/js/admin/components/MemberAddForm.jsx:163
+#: assets/admin/js/admin-page.js:52095
+msgid "Please input a member name"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64221
+#: src/js/admin/components/MemberAddForm.jsx:232
+#: assets/admin/js/admin-page.js:52164
+msgid "Member Joining Date"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64270
+#: src/js/admin/components/MemberAddForm.jsx:290
+#: assets/admin/js/admin-page.js:52222
+msgid "Add Member"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64462
+#: src/js/admin/components/MemberDetails.jsx:119
+#: assets/admin/js/admin-page.js:52352
+msgid "An error occurred while sending the email."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64473
+#: src/js/admin/components/MemberDetails.jsx:130
+#: assets/admin/js/admin-page.js:52363
+msgid "Member Details"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64606
+#: src/js/admin/components/MemberDetails.jsx:201
+#: assets/admin/js/admin-page.js:52434
+msgid "No member details available."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64850
+#: src/js/admin/components/SendMailModal.jsx:36
+#: assets/admin/js/admin-page.js:52598
+msgid "Message field cannot be empty."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64890
+#: src/js/admin/components/SendMailModal.jsx:79
+#: assets/admin/js/admin-page.js:52641
+msgid "Enter your message"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:64918
+#: src/js/admin/components/SendMailModal.jsx:99
+#: assets/admin/js/admin-page.js:52661
+msgid "Click to Upload Pdf"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65034
+#: src/js/admin/components/fields/ClassesMultiSelect.jsx:42
+#: assets/admin/js/admin-page.js:52712
+msgid "Membership Classes"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65037
+#: src/js/admin/components/fields/ClassesMultiSelect.jsx:46
+#: assets/admin/js/admin-page.js:52716
+msgid "Select Class Names"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65100
+#: src/js/admin/components/fields/FileUpload.jsx:13
+#: assets/admin/js/admin-page.js:52747
+msgid "You can only upload JPG/PNG files!"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65105
+#: src/js/admin/components/fields/FileUpload.jsx:18
+#: assets/admin/js/admin-page.js:52752
+msgid "Image must be smaller than 1MB!"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65112
+#: src/js/admin/components/fields/FileUpload.jsx:26
+#: assets/admin/js/admin-page.js:52760
+msgid "WordPress media library is not available."
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65116
+#: src/js/admin/components/fields/FileUpload.jsx:31
+#: assets/admin/js/admin-page.js:52765
+msgid "Select or Upload Media"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65118
+#: src/js/admin/components/fields/FileUpload.jsx:33
+#: assets/admin/js/admin-page.js:52767
+msgid "Upload"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65168
+#: src/js/admin/components/fields/FileUpload.jsx:89
+#: assets/admin/js/admin-page.js:52823
+msgid "Upload Member Image"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65182
+#: src/js/admin/components/fields/FileUpload.jsx:97
+#: assets/admin/js/admin-page.js:52831
+msgid "Are you sure you want to delete this image?"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65184
+#: src/js/admin/components/fields/FileUpload.jsx:99
+#: assets/admin/js/admin-page.js:52833
+msgid "Yes"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65185
+#: src/js/admin/components/fields/FileUpload.jsx:100
+#: assets/admin/js/admin-page.js:52834
+msgid "No"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65271
+#: assets/admin/js/admin-page.js:65403
+#: assets/admin/js/admin-page.js:65562
+#: src/js/admin/components/fields/PackageTypeSelect.jsx:29
+#: src/js/admin/components/fields/PostPackageTypeSelect.jsx:29
+#: src/js/admin/components/fields/ScheduleSelect.jsx:47
+#: assets/admin/js/admin-page.js:52877
+#: assets/admin/js/admin-page.js:52946
+#: assets/admin/js/admin-page.js:53040
+msgid "Network response was not ok"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65283
+#: assets/admin/js/admin-page.js:65415
+#: src/js/admin/components/fields/PackageTypeSelect.jsx:34
+#: src/js/admin/components/fields/PostPackageTypeSelect.jsx:35
+#: assets/admin/js/admin-page.js:52882
+#: assets/admin/js/admin-page.js:52952
+msgid "There has network response issue"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65303
+#: src/js/admin/components/fields/PackageTypeSelect.jsx:47
+#: assets/admin/js/admin-page.js:52895
+msgid "Membership Package Types"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65307
+#: assets/admin/js/admin-page.js:65445
+#: src/js/admin/components/fields/PackageTypeSelect.jsx:53
+#: src/js/admin/components/fields/PostPackageTypeSelect.jsx:55
+#: assets/admin/js/admin-page.js:52901
+#: assets/admin/js/admin-page.js:52972
+msgid "Select Package Type"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65442
+#: src/js/admin/components/fields/PostPackageTypeSelect.jsx:51
+#: assets/admin/js/admin-page.js:52968
+msgid "Membership Package Name"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65588
+#: src/js/admin/components/fields/ScheduleSelect.jsx:66
+#: assets/admin/js/admin-page.js:53059
+msgid "There was a network response issue"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65620
+#: src/js/admin/components/fields/ScheduleSelect.jsx:95
+#: assets/admin/js/admin-page.js:53088
+msgid "Select Weekday"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65626
+#: src/js/admin/components/fields/ScheduleSelect.jsx:103
+#: assets/admin/js/admin-page.js:53096
+msgid "Select a day"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65642
+#: src/js/admin/components/fields/ScheduleSelect.jsx:124
+#: assets/admin/js/admin-page.js:53117
+msgid "Select Time"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65648
+#: src/js/admin/components/fields/ScheduleSelect.jsx:129
+#: assets/admin/js/admin-page.js:53122
+msgid "Select a time"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65662
+#: src/js/admin/components/fields/ScheduleSelect.jsx:142
+#: assets/admin/js/admin-page.js:53135
+msgid "Available"
+msgstr ""
+
+#: assets/admin/js/admin-page.js:65662
+#: src/js/admin/components/fields/ScheduleSelect.jsx:142
+#: assets/admin/js/admin-page.js:53135
+msgid " Slot"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40119
+#: src/js/admin/components/AdminSettingsPage.jsx:73
+#: assets/admin/js/admin-settings-page.js:31584
+msgid "Something is Wrong."
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40173
+#: src/js/admin/components/AdminSettingsPage.jsx:116
+#: assets/admin/js/admin-settings-page.js:31627
+msgid "An error occurred while save settings."
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40222
+#: src/js/admin/components/AdminSettingsPage.jsx:172
+#: assets/admin/js/admin-settings-page.js:31683
+msgid "Save Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40403
+#: assets/admin/js/admin-settings-page.js:41455
+#: src/js/admin/components/settings-page/ClassSettings.jsx:96
+#: src/js/admin/components/settings-page/PermalinkSettings.jsx:42
+#: assets/admin/js/admin-settings-page.js:31786
+#: assets/admin/js/admin-settings-page.js:32598
+msgid "you can change your class post type base name"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40410
+#: src/js/admin/components/settings-page/ClassSettings.jsx:101
+#: assets/admin/js/admin-settings-page.js:31791
+msgid "Class Archive Style"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40446
+#: assets/admin/js/admin-settings-page.js:41857
+#: src/js/admin/components/settings-page/ClassSettings.jsx:136
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:108
+#: assets/admin/js/admin-settings-page.js:31826
+#: assets/admin/js/admin-settings-page.js:32921
+msgid "Posts Per Page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40465
+#: src/js/admin/components/settings-page/ClassSettings.jsx:153
+#: assets/admin/js/admin-settings-page.js:31843
+msgid "you can select class post item per page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40472
+#: assets/admin/js/admin-settings-page.js:41883
+#: src/js/admin/components/settings-page/ClassSettings.jsx:158
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:130
+#: assets/admin/js/admin-settings-page.js:31848
+#: assets/admin/js/admin-settings-page.js:32943
+msgid "Grid Columns"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40491
+#: src/js/admin/components/settings-page/ClassSettings.jsx:179
+#: assets/admin/js/admin-settings-page.js:31869
+msgid "you can select class archive page grid columns"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40498
+#: assets/admin/js/admin-settings-page.js:41909
+#: src/js/admin/components/settings-page/ClassSettings.jsx:184
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:156
+#: assets/admin/js/admin-settings-page.js:31874
+#: assets/admin/js/admin-settings-page.js:32969
+msgid "Page Layout"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40519
+#: src/js/admin/components/settings-page/ClassSettings.jsx:214
+#: assets/admin/js/admin-settings-page.js:31904
+msgid "Class Single Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40524
+#: assets/admin/js/admin-settings-page.js:41935
+#: src/js/admin/components/settings-page/ClassSettings.jsx:216
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:185
+#: assets/admin/js/admin-settings-page.js:31906
+#: assets/admin/js/admin-settings-page.js:32998
+msgid "Single Page Layout"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40543
+#: src/js/admin/components/settings-page/ClassSettings.jsx:237
+#: assets/admin/js/admin-settings-page.js:31927
+msgid "you can select class single page page layout"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40754
+#: assets/admin/js/admin-settings-page.js:41045
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:58
+#: src/js/admin/components/settings-page/MainHeader.jsx:65
+#: assets/admin/js/admin-settings-page.js:32036
+#: assets/admin/js/admin-settings-page.js:32301
+msgid "Global Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40759
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:60
+#: assets/admin/js/admin-settings-page.js:32038
+msgid "Member ID Card Title/Shop Name"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40778
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:83
+#: assets/admin/js/admin-settings-page.js:32061
+msgid "This text will be used for member generated id card title or shop name"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40785
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:88
+#: assets/admin/js/admin-settings-page.js:32066
+msgid "Contact Number"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40804
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:111
+#: assets/admin/js/admin-settings-page.js:32089
+msgid "This text will be used for member generated id card or any pdf printer contact number"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40811
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:116
+#: assets/admin/js/admin-settings-page.js:32094
+msgid "Shop Address"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40829
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:138
+#: assets/admin/js/admin-settings-page.js:32116
+msgid "This text will be used for member generated id card or any pdf printer shop address"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40836
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:143
+#: assets/admin/js/admin-settings-page.js:32121
+msgid "Footer Note"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40854
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:165
+#: assets/admin/js/admin-settings-page.js:32143
+msgid "This text will be used for member generated id card or any pdf printer footer text"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40861
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:170
+#: assets/admin/js/admin-settings-page.js:32148
+msgid "Sender Email Address"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40880
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:193
+#: assets/admin/js/admin-settings-page.js:32171
+msgid "If you use WP Mail SMTP,then this sender mail will not be working.Your smtp mail setup will set then."
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40887
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:198
+#: assets/admin/js/admin-settings-page.js:32176
+msgid "Currency"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40910
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:223
+#: assets/admin/js/admin-settings-page.js:32201
+msgid "Select the currency name for membership pricing plan"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40917
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:228
+#: assets/admin/js/admin-settings-page.js:32206
+msgid "Currency Position"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:40936
+#: src/js/admin/components/settings-page/GlobalSettings.jsx:249
+#: assets/admin/js/admin-settings-page.js:32227
+msgid "Select the currency position for showing with price"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41010
+#: assets/admin/js/admin-settings-page.js:41282
+#: src/js/admin/components/settings-page/MainHeader.jsx:35
+#: src/js/admin/components/settings-page/PageSettings.jsx:118
+#: assets/admin/js/admin-settings-page.js:32271
+#: assets/admin/js/admin-settings-page.js:32466
+msgid "Page Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41017
+#: src/js/admin/components/settings-page/MainHeader.jsx:41
+#: assets/admin/js/admin-settings-page.js:32277
+msgid "Permalinks Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41038
+#: assets/admin/js/admin-settings-page.js:42132
+#: src/js/admin/components/settings-page/MainHeader.jsx:59
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:129
+#: assets/admin/js/admin-settings-page.js:32295
+#: assets/admin/js/admin-settings-page.js:33157
+msgid "Style Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41054
+#: assets/admin/js/admin-settings-page.js:42028
+#: src/js/admin/components/settings-page/MainHeader.jsx:74
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:21
+#: assets/admin/js/admin-settings-page.js:32310
+#: assets/admin/js/admin-settings-page.js:33049
+msgid "Zoom Integration Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41287
+#: src/js/admin/components/settings-page/PageSettings.jsx:120
+#: assets/admin/js/admin-settings-page.js:32468
+msgid "Classes Page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41297
+#: src/js/admin/components/settings-page/PageSettings.jsx:130
+#: assets/admin/js/admin-settings-page.js:32478
+msgid "you can select classes archive page from dropbox"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41304
+#: src/js/admin/components/settings-page/PageSettings.jsx:135
+#: assets/admin/js/admin-settings-page.js:32483
+msgid "Trainers Page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41314
+#: src/js/admin/components/settings-page/PageSettings.jsx:145
+#: assets/admin/js/admin-settings-page.js:32493
+msgid "you can select trainers archive page from dropbox"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41321
+#: src/js/admin/components/settings-page/PageSettings.jsx:150
+#: assets/admin/js/admin-settings-page.js:32498
+msgid "Member Registration Page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41340
+#: src/js/admin/components/settings-page/PageSettings.jsx:171
+#: assets/admin/js/admin-settings-page.js:32519
+msgid "you can select trainer sign in or sign up page from dropbox"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41347
+#: src/js/admin/components/settings-page/PageSettings.jsx:176
+#: assets/admin/js/admin-settings-page.js:32524
+msgid "Member Dashboard Page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41366
+#: src/js/admin/components/settings-page/PageSettings.jsx:197
+#: assets/admin/js/admin-settings-page.js:32545
+msgid "you can select trainer dashboard or trainer account page from dropbox"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41431
+#: src/js/admin/components/settings-page/PermalinkSettings.jsx:17
+#: assets/admin/js/admin-settings-page.js:32573
+msgid "Permalink Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41436
+#: src/js/admin/components/settings-page/PermalinkSettings.jsx:19
+#: assets/admin/js/admin-settings-page.js:32575
+msgid "Class Base"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41462
+#: src/js/admin/components/settings-page/PermalinkSettings.jsx:47
+#: assets/admin/js/admin-settings-page.js:32603
+msgid "Class Category Base"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41481
+#: src/js/admin/components/settings-page/PermalinkSettings.jsx:70
+#: assets/admin/js/admin-settings-page.js:32626
+msgid "you can change your class post type category base name"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41488
+#: src/js/admin/components/settings-page/PermalinkSettings.jsx:75
+#: assets/admin/js/admin-settings-page.js:32631
+msgid "Trainer Base"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41507
+#: src/js/admin/components/settings-page/PermalinkSettings.jsx:98
+#: assets/admin/js/admin-settings-page.js:32654
+msgid "you can change your trainer post type  base name"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41514
+#: src/js/admin/components/settings-page/PermalinkSettings.jsx:103
+#: assets/admin/js/admin-settings-page.js:32659
+msgid "Trainer Category Base"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41533
+#: src/js/admin/components/settings-page/PermalinkSettings.jsx:126
+#: assets/admin/js/admin-settings-page.js:32682
+msgid "you can change your trainer post type category base name"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41589
+#: src/js/admin/components/settings-page/StyleSettings.jsx:19
+#: assets/admin/js/admin-settings-page.js:32710
+msgid "Global Style"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41591
+#: src/js/admin/components/settings-page/StyleSettings.jsx:21
+#: assets/admin/js/admin-settings-page.js:32712
+msgid "Primary Color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41592
+#: src/js/admin/components/settings-page/StyleSettings.jsx:22
+#: assets/admin/js/admin-settings-page.js:32713
+msgid "This color is set for all primary color in this plugin"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41597
+#: src/js/admin/components/settings-page/StyleSettings.jsx:28
+#: assets/admin/js/admin-settings-page.js:32719
+msgid "Secondary Color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41598
+#: src/js/admin/components/settings-page/StyleSettings.jsx:29
+#: assets/admin/js/admin-settings-page.js:32720
+msgid "This color is set for all secondary color in this plugin"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41604
+#: src/js/admin/components/settings-page/StyleSettings.jsx:36
+#: assets/admin/js/admin-settings-page.js:32727
+msgid "Class Style"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41606
+#: src/js/admin/components/settings-page/StyleSettings.jsx:38
+#: assets/admin/js/admin-settings-page.js:32729
+msgid "Class Title"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41607
+#: src/js/admin/components/settings-page/StyleSettings.jsx:39
+#: assets/admin/js/admin-settings-page.js:32730
+msgid "This color is set for class title color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41612
+#: src/js/admin/components/settings-page/StyleSettings.jsx:45
+#: assets/admin/js/admin-settings-page.js:32736
+msgid "Class Content"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41613
+#: src/js/admin/components/settings-page/StyleSettings.jsx:46
+#: assets/admin/js/admin-settings-page.js:32737
+msgid "This color is set for class content color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41618
+#: src/js/admin/components/settings-page/StyleSettings.jsx:52
+#: assets/admin/js/admin-settings-page.js:32743
+msgid "Class Schedule"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41619
+#: src/js/admin/components/settings-page/StyleSettings.jsx:53
+#: assets/admin/js/admin-settings-page.js:32744
+msgid "This color is set for class schedule color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41624
+#: src/js/admin/components/settings-page/StyleSettings.jsx:59
+#: assets/admin/js/admin-settings-page.js:32750
+msgid "Class Trainer"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41625
+#: src/js/admin/components/settings-page/StyleSettings.jsx:60
+#: assets/admin/js/admin-settings-page.js:32751
+msgid "This color is set for class trainer color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41630
+#: src/js/admin/components/settings-page/StyleSettings.jsx:66
+#: assets/admin/js/admin-settings-page.js:32757
+msgid "Single Class Table Title"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41631
+#: src/js/admin/components/settings-page/StyleSettings.jsx:67
+#: assets/admin/js/admin-settings-page.js:32758
+msgid "This color is set for class table title color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41636
+#: src/js/admin/components/settings-page/StyleSettings.jsx:73
+#: assets/admin/js/admin-settings-page.js:32764
+msgid "Single Class Table Border"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41637
+#: src/js/admin/components/settings-page/StyleSettings.jsx:74
+#: assets/admin/js/admin-settings-page.js:32765
+msgid "This color is set for class table border color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41642
+#: src/js/admin/components/settings-page/StyleSettings.jsx:80
+#: assets/admin/js/admin-settings-page.js:32771
+msgid "Single Class Table Heading"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41643
+#: src/js/admin/components/settings-page/StyleSettings.jsx:81
+#: assets/admin/js/admin-settings-page.js:32772
+msgid "This color is set for class table heading color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41649
+#: src/js/admin/components/settings-page/StyleSettings.jsx:87
+#: assets/admin/js/admin-settings-page.js:32778
+msgid "Trainer Style"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41651
+#: src/js/admin/components/settings-page/StyleSettings.jsx:89
+#: assets/admin/js/admin-settings-page.js:32780
+msgid "Trainer Title"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41652
+#: src/js/admin/components/settings-page/StyleSettings.jsx:90
+#: assets/admin/js/admin-settings-page.js:32781
+msgid "This color is set for trainer title color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41658
+#: src/js/admin/components/settings-page/StyleSettings.jsx:97
+#: assets/admin/js/admin-settings-page.js:32788
+msgid "This color is set for trainer designation color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41663
+#: src/js/admin/components/settings-page/StyleSettings.jsx:103
+#: assets/admin/js/admin-settings-page.js:32794
+msgid "Trainer Content"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41664
+#: src/js/admin/components/settings-page/StyleSettings.jsx:104
+#: assets/admin/js/admin-settings-page.js:32795
+msgid "This color is set for trainer content color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41669
+#: src/js/admin/components/settings-page/StyleSettings.jsx:110
+#: assets/admin/js/admin-settings-page.js:32801
+msgid "Trainer Background"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41670
+#: src/js/admin/components/settings-page/StyleSettings.jsx:111
+#: assets/admin/js/admin-settings-page.js:32802
+msgid "This color is set for trainer background color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41821
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:73
+#: assets/admin/js/admin-settings-page.js:32886
+msgid "Trainer Archive Style"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41876
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:125
+#: assets/admin/js/admin-settings-page.js:32938
+msgid "you can select trainer post item per page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41902
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:151
+#: assets/admin/js/admin-settings-page.js:32964
+msgid "you can select trainer archive page grid columns"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41930
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:183
+#: assets/admin/js/admin-settings-page.js:32996
+msgid "Trainer Single Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:41954
+#: src/js/admin/components/settings-page/TrainerSettings.jsx:206
+#: assets/admin/js/admin-settings-page.js:33019
+msgid "you can select trainer single page page layout"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42033
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:23
+#: assets/admin/js/admin-settings-page.js:33051
+msgid "Display Class Type Badge"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42056
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:45
+#: assets/admin/js/admin-settings-page.js:33073
+msgid "Offline Class Badge Text"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42075
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:68
+#: assets/admin/js/admin-settings-page.js:33096
+msgid "This text will be used for offline class type text"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42082
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:73
+#: assets/admin/js/admin-settings-page.js:33101
+msgid "Online Class Badge Text"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42101
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:96
+#: assets/admin/js/admin-settings-page.js:33124
+msgid "This text will be used for online class type text"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42108
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:101
+#: assets/admin/js/admin-settings-page.js:33129
+msgid "Get Zoom Class Button Text"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42127
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:124
+#: assets/admin/js/admin-settings-page.js:33152
+msgid "This text will be used for get zoom class video links button text"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42134
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:131
+#: assets/admin/js/admin-settings-page.js:33159
+msgid "Online Badge Color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42135
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:132
+#: assets/admin/js/admin-settings-page.js:33160
+msgid "This color is set for class type online badge color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42140
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:138
+#: assets/admin/js/admin-settings-page.js:33166
+msgid "Offline Badge Color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42141
+#: src/js/admin/components/settings-page/ZoomIntegrationSettings.jsx:139
+#: assets/admin/js/admin-settings-page.js:33167
+msgid "This color is set for class type offline badge color"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42309
+#: src/js/admin/components/settings-page/class/ClassFilteringSettings.jsx:118
+#: assets/admin/js/admin-settings-page.js:33295
+msgid "Select the classes that you want to display on class archive page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42329
+#: src/js/admin/components/settings-page/class/ClassFilteringSettings.jsx:136
+#: assets/admin/js/admin-settings-page.js:33313
+msgid "Select the classes that you don't want to display on class archive page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42349
+#: src/js/admin/components/settings-page/class/ClassFilteringSettings.jsx:154
+#: assets/admin/js/admin-settings-page.js:33331
+msgid "Select the categories that  want to filter classes on class archive page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42356
+#: src/js/admin/components/settings-page/class/ClassFilteringSettings.jsx:159
+#: assets/admin/js/admin-settings-page.js:33336
+msgid "Class Order By"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42460
+#: src/js/admin/components/settings-page/class/ClassLayout2Settings.jsx:17
+#: assets/admin/js/admin-settings-page.js:33403
+msgid "Slider Settings"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42465
+#: src/js/admin/components/settings-page/class/ClassLayout2Settings.jsx:19
+#: assets/admin/js/admin-settings-page.js:33405
+msgid "Slider Autoplay"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42484
+#: src/js/admin/components/settings-page/class/ClassLayout2Settings.jsx:40
+#: assets/admin/js/admin-settings-page.js:33426
+msgid "you can set slider autoplay. Default:True"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42491
+#: src/js/admin/components/settings-page/class/ClassLayout2Settings.jsx:45
+#: assets/admin/js/admin-settings-page.js:33431
+msgid "Slider Loop"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42510
+#: src/js/admin/components/settings-page/class/ClassLayout2Settings.jsx:66
+#: assets/admin/js/admin-settings-page.js:33452
+msgid "you can set slider loop play. Default:True"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42517
+#: src/js/admin/components/settings-page/class/ClassLayout2Settings.jsx:71
+#: assets/admin/js/admin-settings-page.js:33457
+msgid "Centered Slider"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42536
+#: src/js/admin/components/settings-page/class/ClassLayout2Settings.jsx:92
+#: assets/admin/js/admin-settings-page.js:33478
+msgid "you can set slider position. Default:False"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42543
+#: src/js/admin/components/settings-page/class/ClassLayout2Settings.jsx:97
+#: assets/admin/js/admin-settings-page.js:33483
+msgid "Slides Per View"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42562
+#: src/js/admin/components/settings-page/class/ClassLayout2Settings.jsx:114
+#: assets/admin/js/admin-settings-page.js:33500
+msgid "you can set how many sliders show on desktop. Default:3"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42687
+#: assets/admin/js/admin-settings-page.js:42831
+#: src/js/admin/components/settings-page/class/ImageSettings.jsx:70
+#: src/js/admin/components/settings-page/trainer/ImageSettings.jsx:70
+#: assets/admin/js/admin-settings-page.js:33579
+#: assets/admin/js/admin-settings-page.js:33678
+msgid "Image Hard Crop"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:42706
+#: assets/admin/js/admin-settings-page.js:42850
+#: src/js/admin/components/settings-page/class/ImageSettings.jsx:91
+#: src/js/admin/components/settings-page/trainer/ImageSettings.jsx:91
+#: assets/admin/js/admin-settings-page.js:33600
+#: assets/admin/js/admin-settings-page.js:33699
+msgid "you can set image hard crop"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:43014
+#: src/js/admin/components/settings-page/trainer/TrainerFiltering.jsx:115
+#: assets/admin/js/admin-settings-page.js:33822
+msgid "Select the classes that you want to display on Trainer archive page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:43034
+#: src/js/admin/components/settings-page/trainer/TrainerFiltering.jsx:133
+#: assets/admin/js/admin-settings-page.js:33840
+msgid "Select the classes that you don't want to display on Trainer archive page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:43054
+#: src/js/admin/components/settings-page/trainer/TrainerFiltering.jsx:151
+#: assets/admin/js/admin-settings-page.js:33858
+msgid "Select the categories that  want to filter classes on Trainer archive page"
+msgstr ""
+
+#: assets/admin/js/admin-settings-page.js:43061
+#: src/js/admin/components/settings-page/trainer/TrainerFiltering.jsx:156
+#: assets/admin/js/admin-settings-page.js:33863
+msgid "Trainer Order By"
+msgstr ""
